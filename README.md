@@ -6,9 +6,20 @@ Here you can find my note from the courses on [ibiology](https://www.ibiology.or
 >
 > *"You can observe a lot just by watching"*
 
-Resolving power of the light microscope; the [resolution limits of light](https://en.wikipedia.org/wiki/Diffraction-limited_system): $d=\frac{\lambda}{2nsin\alpha}$ where $d$ is the distance about how far apart two objects are where they can still be distinguised as separate objects; $λ$ is the wavelength of light; $n$ is the index of refraction of the medium being imaged in; and $\alpha$ is the half-angle subtended by the optical objective lens.
-
+Resolving power of the light microscope; the [resolution limits of light](https://en.wikipedia.org/wiki/Diffraction-limited_system): $d=\frac{\lambda}{2nsin\alpha}$ where $d$ is the distance about how far apart two objects are where they can still be distinguised as separate objects; $λ$ is the wavelength of light; $n$ is the index of refraction of the medium being imaged in; and $\alpha$ is the half-angle subtended by the optical objective lens. Here $nsin\alpha$ is the [numerical aperture](https://en.wikipedia.org/wiki/Numerical_aperture) that characterizes the range of angles over which the system can accept or emit light.
 
 Green Fluorescence Protein is not compatible with the live cell imaging but is a subtatial improvement over immonuflourescence.
 
+[Sliding filament theory of muscle contraction](https://www.youtube.com/watch?v=nTZnBdeIb5c)
 
+
+## History of Early Microscopes (Joseph Gall, Carnegie Institution)
+> [link](https://www.ibiology.org/talks/early-microscopes) | [YouTube](https://www.youtube.com/watch?v=U73iwy3YqCA)
+
+- Late 1600s:
+
+  [Hooke's Microscope](https://micro.magnet.fsu.edu/primer/museum/hooke.html)
+  
+  ![Hook's microscope](https://micro.magnet.fsu.edu/primer/museum/images/hooke.jpg)
+
+ 
