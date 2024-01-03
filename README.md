@@ -22,4 +22,20 @@ Green Fluorescence Protein is not compatible with the live cell imaging but is a
   
   ![Hook's microscope](https://micro.magnet.fsu.edu/primer/museum/images/hooke.jpg)
 
+  Hook's ["Micrographia" book](https://www.gutenberg.org/ebooks/15491) is a set of 38 plates
+- 1760:
+  - more compaund microscopes;
+  - [Screw-Barell microscope](https://www.microscopehistory.com/screw-barrel-1)
+
+  ![Screw-Barell microscope](https://static.wixstatic.com/media/36f314_c284531e16814bd5877aca950913fb19~mv2.jpg/v1/crop/x_329,y_55,w_1547,h_2933/fill/w_388,h_735,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/_DSC4207_JPG.jpg)
+
+- 1820
+  - [Brown's single lens microscope](https://ca1-tls.edcdn.com/Ford-B_Hidden-Realities-Brown-Micro_Pulse-iss-40-Dec-2018.pdf) and [discovery](https://physerver.hamilton.edu/research/brownian/Jigglyread.html)
+ 
+  ![Brown's microscope](https://physerver.hamilton.edu/research/brownian/images/Brownmiclinn.png)
+  
+- 1838 cell theory
+  [Abbe’s Theory](https://digital.csic.es/bitstream/10261/285373/1/Mart%C3%ADn_Albaladejo_C_Abbes-Theory.pdf)
+
+
  
