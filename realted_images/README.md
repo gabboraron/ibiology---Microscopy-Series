@@ -1,0 +1,1 @@
+This folder contains the images related to this lecture. You can find the exact source of each image at the description of the commit of the specific image.
