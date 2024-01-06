@@ -61,7 +61,7 @@ refraction *(sign: $n$)* = $\frac{\text{speed of light in vacuum}}{\text{speed o
 
 The angle of incidence is equal with the reflection.
 
-|![reflection_light_angle](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/reflection-light-angle-incidence.png)|![]()|
+|![reflection_light_angle](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/reflection-light-angle-incidence.png)|![reflection in video](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/refractive_lenses_and_image_formation/light-matter_reflection.png)|
 |--|--|
 
 
@@ -86,11 +86,21 @@ $$T=\frac{4n_in_t}{(n_t+n_i)^2}$$
 
 When the light goes throught several surfaces we can sum is as different refractions. This happens wen we use lenses and it is described by the [lensmaker's equation](http://www.physicsbootcamp.org/lens-maker-equation.html): $\frac{1}{f} = (n-1)(\frac{1}{R_1}-\frac{1}{R_2})$ where $f$ is the focal length, and $R_1$, $R_2$ are the radius of the circle which create the lens. When one surface of the lens is flat than then it means that you can set $R_2 = \infty$. Also you can set the thickness of the lens by $\frac{1}{f} = \frac{(n_1-n_0)}{n_0}(\frac{1}{R_1}-\frac{1}{R_2} + \frac{(n_1-n_0)d}{n_1R_1R_2})$  If the lens is operating in air, then set $n_0=1$, like in the previous equation.
 
-| ![focal length - screenshot from video]() | ![focal length](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/lens-maker-equation-geometry-for-focal-length.png) | 
+| ![focal length - screenshot from video](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/refractive_lenses_and_image_formation/focal_length.png) | ![focal length](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/lens-maker-equation-geometry-for-focal-length.png) | 
 | --- | --- |
 
 
+At the focus point the light is has a distribution density.
 
+![focus_point](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/refractive_lenses_and_image_formation/focus_point.png)
+
+**Ray tracing:** parallel rays will go to the focus after lens and and will be parallel after lens if it comes from a focus.
+
+*Thin lens equation:* $\frac{1}{f} = (\frac{1}{s_0} + \frac{1}{s_i})$ where $s_0$ is the distance from the object to the lens, and $s_i$ is the distance from lens to image and $f$ is the focal length of the lens.
+
+*magnification:* $M=\frac{y_i}{y_0}=- \frac{s_i}{s_0}$ where $y_0$ is the object and $y_i$ is the image height.
+
+![ray tracing](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/refractive_lenses_and_image_formation/ray_tracing.png)
 
 
 
