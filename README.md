@@ -142,7 +142,7 @@ Here as you see we used [eyepiece](https://en.wikipedia.org/wiki/Eyepiece), we w
 
 With the Köhler illumination we can have defocused light  which don't disturb the image.
 
-| ![köhler_illumination]() | ![köhler illumination, the path of the light and the path of the image](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/1024px-Kohler_Illumination_en.svg.png) |
+| ![köhler_illumination](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscope%20Imaging%20and%20Koehler%20Illumination%20(Ron%20Vale)/keohler.png) | ![köhler illumination, the path of the light and the path of the image](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/1024px-Kohler_Illumination_en.svg.png) |
 | --------------------- | --------- | 
 | [Köhler illumination](https://www.scientifica.uk.com/learning-zone/a-6-step-guide-to-koehler-illumination) | [Schematics of Köhler illumination.](https://en.wikipedia.org/wiki/K%C3%B6hler_illumination) Top: Illumination beam path, conjugated planes marked with the light green bar. Bottom: Imaging beam path, conjugated planes marked with the light blue bar. See text for further details. |
 
