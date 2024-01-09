@@ -38,7 +38,7 @@ Green Fluorescence Protein is not compatible with the live cell imaging but is a
   [Abbe’s Theory](https://digital.csic.es/bitstream/10261/285373/1/Mart%C3%ADn_Albaladejo_C_Abbes-Theory.pdf
 
 ## Refractive Lenses and Image Formation (Daniel Fletcher, UC Berkeley)
-> [lecture link](https://www.ibiology.org/talks/refractive-lenses/) | [YouTube](https://www.youtube.com/watch?v=vlxMSz7XRys&t=100s)
+> [lecture link](https://www.ibiology.org/talks/refractive-lenses/) | [YouTube](https://www.youtube.com/watch?v=vlxMSz7XRys&t=100s) | [questions](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/exercises/Refractive%20Lenses%20and%20Image%20Formation.jpg)
 >
 > Light microscopes use lenses. The basic properties of light, how light interacts with matter, the principles behind refractive lenses and how lenses form (magnified) images will be introduced in this talk.
 
@@ -53,7 +53,7 @@ amplitude = $\sqrt{intensity}$
 
 frequency = $\frac{speed}{wavelength}$
 
-refraction *(sign: $n$)* = $\frac{\text{speed of light in vacuum}}{\text{speed of light in material}}$
+refraction *(sign:* $n$ *)* = $\frac{\text{speed of light in vacuum}}{\text{speed of light in material}}$
 
 ### Light - matter interaction:
 
@@ -65,7 +65,20 @@ The angle of incidence is equal with the reflection.
 |--|--|
 
 
-**Refraction is the bending of light (it also happens with sound, water and other waves) as it passes from one transparent substance into another. [law of refrection](https://www.britannica.com/science/refraction): $n_isin(\phi_i) = n_rsin(\phi_t)$**
+**Refraction is the bending of light (it also happens with sound, water and other waves) as it passes from one transparent substance into another. [Law of refrection](https://www.britannica.com/science/refraction): $n_isin(\phi_i) = n_rsin(\phi_t)$** In this [equation](https://farside.ph.utexas.edu/teaching/316/lectures/node128.html) $\phi_1$ is the angle subtended between the incident ray and the normal to the interface, and $\phi_2$ is the angle subtended between the refracted ray and the normal to the interface. The quantities $n_1$ and $n_2$ are termed the refractive indices of media 1 and 2, respectively. Thus, the law of refraction predicts that a light-ray always deviates more towards the normal in the optically denser medium: i.e., the medium with the higher refractive index. By definition, the refractive index $n$ of a dielectric medium of dielectric constant $K$ is given by $n=\sqrt{K}$. [Table](https://farside.ph.utexas.edu/teaching/316/lectures/node128.html#t12.1) below shows the refractive indices of some common materials (for yellow light of wavelength $\lambda =589$nm).
+
+| material | $n$ |
+| --- | --- |
+| air | 1.00029 |
+| water | 1.33 |
+| ice | 1.31 |
+| glass | 1.52 |
+| light flint | 1.58 |
+| heavy flint | 1.65 |
+| heaviest flint | 1.89 |
+| diamond | 2.42 |
+
+The law of refraction follows directly from the fact that the speed $v$ with which light propagates through a dielectric medium is inversely proportional to the refractive index of the medium $v = \frac{c}{n}$, where $c$ is the speed of the light.
 
 | ![refraction](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Refraction-of-light-in-water20150805-30610-expmepedited.png) | ![low of refraction](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/law-refraction-angle-light-ray-Snell-medium.gif) |
 |---- | ---- | 
@@ -80,9 +93,11 @@ The law of refraction, also known as [Snell’s law](https://www.britannica.com/
 
 $$transmitted + reflected + absorbed = \text{total amount of light}$$
 
-$$R=(\frac{n_t-n_i}{n_t+n_i})^2$$
+$$\text{(reflection)  }R=(\frac{n_t-n_i}{n_t+n_i})^2$$
 
-$$T=\frac{4n_in_t}{(n_t+n_i)^2}$$
+[Here](https://en.wikipedia.org/wiki/Fresnel_equations#Normal_incidence) assume the $\phi_i = \phi_t = 0$.
+
+$$T=\frac{4n_i n_t}{(n_t+n_i)^2}$$
 
 When the light goes throught several surfaces we can sum is as different refractions. This happens wen we use lenses and it is described by the [lensmaker's equation](http://www.physicsbootcamp.org/lens-maker-equation.html): $\frac{1}{f} = (n-1)(\frac{1}{R_1}-\frac{1}{R_2})$ where $f$ is the focal length, and $R_1$, $R_2$ are the radius of the circle which create the lens. When one surface of the lens is flat than then it means that you can set $R_2 = \infty$. Also you can set the thickness of the lens by $\frac{1}{f} = \frac{(n_1-n_0)}{n_0}(\frac{1}{R_1}-\frac{1}{R_2} + \frac{(n_1-n_0)d}{n_1R_1R_2})$  If the lens is operating in air, then set $n_0=1$, like in the previous equation.
 
@@ -100,7 +115,14 @@ At the focus point the light is has a distribution density.
 
 *magnification:* $M=\frac{y_i}{y_0}=- \frac{s_i}{s_0}$ where $y_0$ is the object and $y_i$ is the image height.
 
+The relationship between the focal lengths of the objective lens ($f_{obj}$), tube lens ($f_{tube}$), and the total magnification (M) is given by the formula: $M=-\frac{f_{tube}}{f_{obj}}$
+
 ![ray tracing](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/refractive_lenses_and_image_formation/ray_tracing.png)
+
+## Microscope Imaging and Koehler Illumination (Ron Vale, HHMI/UCSF)
+> [lecture link](https://www.ibiology.org/talks/microscope-imaging-koehler-illumination/) | [YouTube](https://www.youtube.com/watch?v=H5-CfX3XLf0)
+
+
 
 
 
