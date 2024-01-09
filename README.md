@@ -1,5 +1,8 @@
 # ![ibiology -](https://www.ibiology.org/wp-content/uploads/2023/08/iBiology-Horizontal-Logo-B.png) Microscopy Series
-Here you can find my note from the courses on [ibiology](https://www.ibiology.org) - [Microscopy Series](https://www.ibiology.org/online-biology-courses/microscopy-series/microscopy-series-table-contents/). 
+> Here you can find my note from the courses on [ibiology](https://www.ibiology.org) - [Microscopy Series](https://www.ibiology.org/online-biology-courses/microscopy-series/microscopy-series-table-contents/).
+>
+> Other useful links:
+> - [ComponentLibrary (a vector graphics library for illustrations of optics experiments)](http://www.gwoptics.org/ComponentLibrary/)
 
 ## Historical Contributions from Light Microscopy: What Can You Learn with a Light Microscope? (Ron Vale, HHMI/UCSF)
 > [link](https://www.ibiology.org/talks/light-microscopy/) | [YouTube](https://www.youtube.com/watch?v=4c5ILWQmqRY&t=7s)
@@ -121,8 +124,41 @@ The relationship between the focal lengths of the objective lens ($f_{obj}$), tu
 
 ## Microscope Imaging and Koehler Illumination (Ron Vale, HHMI/UCSF)
 > [lecture link](https://www.ibiology.org/talks/microscope-imaging-koehler-illumination/) | [YouTube](https://www.youtube.com/watch?v=H5-CfX3XLf0)
+>
+> This lecture covers the lenses of the microscope and how they are used to focus light onto a specimen and how light from the specimen is focused onto a camera or the retina of an eye.  Koehler illumination, which provides even illumination of a sample, is described.
 
 
+*info:* many microscope lens created earlier than 20 years has a 160mm image distance.
+
+Nowdays mostly we use infinity lens whith tube lens. In this case the magnification will be $M=\frac{f_1}{f_0}$ where $f_1$ is the focal length of the tube lens and $f_0$ is the focal length of the objective lens which is a much smaller number. 
+
+| ![tube lens](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscope%20Imaging%20and%20Koehler%20Illumination%20(Ron%20Vale)/tubelens.png) | ![projecting_the_imge_to_your_eye](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscope%20Imaging%20and%20Koehler%20Illumination%20(Ron%20Vale)/projecting_the_imge_to_your_eye.png) | ![projecting_the_imge_to_camera](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscope%20Imaging%20and%20Koehler%20Illumination%20(Ron%20Vale)/projecting_the_imge_to_camera.png) |
+| ----- | ---- | ---- |
+
+Here as you see we used [eyepiece](https://en.wikipedia.org/wiki/Eyepiece), we will talk about this later.
 
 
+### The other question is the illumination of the microscope
+
+With the Köhler illumination we can have defocused light  which don't disturb the image.
+
+| ![köhler_illumination]() | ![köhler illumination, the path of the light and the path of the image](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/1024px-Kohler_Illumination_en.svg.png) |
+| --------------------- | --------- | 
+| [Köhler illumination](https://www.scientifica.uk.com/learning-zone/a-6-step-guide-to-koehler-illumination) | [Schematics of Köhler illumination.](https://en.wikipedia.org/wiki/K%C3%B6hler_illumination) Top: Illumination beam path, conjugated planes marked with the light green bar. Bottom: Imaging beam path, conjugated planes marked with the light blue bar. See text for further details. |
+
+[Critical illumination](https://en.wikipedia.org/wiki/Critical_illumination) (below), focuses an image of a light source on to the specimen for bright illumination. Critical illumination generally has problems with evenness of illumination as an image of the illumination source (for example a halogen lamp filament) is visible in the resulting image. Köhler illumination has largely replaced critical illumination in modern scientific light microscopy although it requires additional optics which may not be present in less expensive and simpler light microscopes.
+
+| ![critical_illumination.png](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscope%20Imaging%20and%20Koehler%20Illumination%20(Ron%20Vale)/critical_illumination.png) | ![critical illumination schematic](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Critical_Illumination.svg) |
+| ---- | ---- |
+
+*info:* [Five steps for Koehler Illumination](https://www.leica-microsystems.com/science-lab/microscopy-basics/koehler-illumination-a-brief-history-and-a-practical-set-up-in-five-easy-steps/)
+
+### Conjugate focal plane
+> In optics, a [conjugate plane or conjugate focal plane](https://en.wikipedia.org/wiki/Conjugate_focal_plane) of a given plane P, is the plane P′ such that points on P are imaged on P′. If an object is moved to the point occupied by its image, then the moved object's new image will appear at the point where the object originated.
+
+The field diaphragm simply controls the amount of light which finally reaches the slide on the stage. By controlling the amount of light coming from the light source, you are able to reduce glare from the source and this results in images with greater contrast. The field diaphragm is usually controlled by a knurled ring around the lens.
+
+| ![iris_field](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscope%20Imaging%20and%20Koehler%20Illumination%20(Ron%20Vale)/iris_field.png) | ![The field diaphragm](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Koehler%20Illumination%20A%20Brief%20History%20and%20a%20Practical%20Set%20Up%20in%20Five%20Easy%20Steps.png) |
+| ---- | ----- |
+| The image of field diaphragm has an image on the sample and on the camer as well, but this works only with proper Köhler illumination. | [The main components of an upright microscope.](https://www.leica-microsystems.com/science-lab/microscopy-basics/koehler-illumination-a-brief-history-and-a-practical-set-up-in-five-easy-steps/) The Field diaphragm controls the intensity of light from the source. The condenser focusses the light from the light source on the specimen. The aperture diaphragm controls the angle of the illumination light cone.  |
 
