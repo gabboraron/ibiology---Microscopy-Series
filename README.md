@@ -3,6 +3,8 @@
 >
 > Other useful links:
 > - [ComponentLibrary (a vector graphics library for illustrations of optics experiments)](http://www.gwoptics.org/ComponentLibrary/)
+> - [Demystifying Microscopes: Disassembling a Nikon Ti Eclipse Microscope](https://www.ibiology.org/talks/nikon-ti-eclipse-microscope/) | [YouTube](https://youtu.be/DAV0X1c3s-g?si=pcsGO-8EVUfC9A5e)
+> - [Microscopy: Diffraction (Jeff Lichtman)](https://www.youtube.com/watch?v=V8JXPqDWFcM)
 
 ## Historical Contributions from Light Microscopy: What Can You Learn with a Light Microscope? (Ron Vale, HHMI/UCSF)
 > [link](https://www.ibiology.org/talks/light-microscopy/) | [YouTube](https://www.youtube.com/watch?v=4c5ILWQmqRY&t=7s)
@@ -161,4 +163,62 @@ The field diaphragm simply controls the amount of light which finally reaches th
 | ![iris_field](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscope%20Imaging%20and%20Koehler%20Illumination%20(Ron%20Vale)/iris_field.png) | ![The field diaphragm](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Koehler%20Illumination%20A%20Brief%20History%20and%20a%20Practical%20Set%20Up%20in%20Five%20Easy%20Steps.png) |
 | ---- | ----- |
 | The image of field diaphragm has an image on the sample and on the camer as well, but this works only with proper Köhler illumination. | [The main components of an upright microscope.](https://www.leica-microsystems.com/science-lab/microscopy-basics/koehler-illumination-a-brief-history-and-a-practical-set-up-in-five-easy-steps/) The Field diaphragm controls the intensity of light from the source. The condenser focusses the light from the light source on the specimen. The aperture diaphragm controls the angle of the illumination light cone.  |
+
+## Objective Lenses and Eyepieces - Steve Ross
+> [Lecture page](https://www.ibiology.org/talks/objective-lenses/) | [YouTube](https://www.youtube.com/watch?v=Y2tn7Prw1GA&embeds_referring_euri=https%3A%2F%2Fwww.ibiology.org%2F&source_ve_path=MjM4NTE&feature=emb_title)
+>
+> Microscope lenses are highly complex optical elements that correct for many different optical aberrations. This lecture describes a number of these aberrations and discusses what you should consider when selecting objective lenses as well as other precautions you can take to reduce the effects of aberrations.
+
+### Optical Aberrations
+It is always a tradeoff between the correction versus transmission and numerical aperture. Plan version are flat-field corrected, so that when you look in the eyepiece you can see a flat corrected field.
+
+Apochromat lenses are the more correctted lenses, but don't forget, more glass in the lens to correct the lens, more transmission is losed!
+
+| ![lenstypesandcorrections](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/lenstypesandcorrections.png) | ![aberrations](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/aberration.png) | ![numerical aperture](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/numericalaperture.png) |
+| ------------ | ------------ | ------------------ |
+
+#### Numerical aperture
+> More in [ Encyclopedia of Materials: Science and Technology (Second Edition)](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/Optical_Microscopy-AS_HOLIK.pdf)
+ 
+$$NA = nsin\phi$$
+Where $NA$ is [numerical aperture](https://www.sciencedirect.com/sdfe/pdf/download/eid/3-s2.0-B0080431526011426/first-page-pdf), $n$ is the refractive index of the medium between the objective lens and the object *(air = 1.0; water = 1.33, oil = 1.515)*; $sin\phi$ is the angle of the cone of illumination; $\phi$ is half the angular aperture (or acceptance angle of image-forming rays) of the objective lens. This is why we can increase the magnification with immersion media.
+
+| ![numerical_aperture](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/numerical_aperture.png) | ![immersion_media](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/immersion_media.png) |
+| ------------------- |----- |
+
+#### Curvature of field 
+Due the curved surface of the lens you cant get the focus of the whole image at the same time.
+
+Curvature of field is present when the sharpest image is formed not on a flat plane but on a curved surface. See in the thrd image, the image "plane" (the arc) deviates from a flat surface (the vertical line).
+
+| ![fieldcurvature](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/fieldcurvature.png) | ![Curvature of field](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/aberration-curvature-field.gif) | ![Field curvature: the image "plane" (the arc) deviates from a flat surface (the vertical line).](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Field_curvature.svg) |
+| ------------------- |----- | --- |
+
+#### Astigmatism
+A point source of the light which appears as a line or ellipse, and when you go through focus it changes its directionality in other way. High quality lenses don't heve such, just if you drop it. Occurs when thelens is curved more steeply in one direction than in another. [On the right picture](https://en.wikipedia.org/wiki/Astigmatism_(optical_systems)) you can see the image of point G is at point $B_M$ for rays in plane M, and at point $B_S$ for rays in plane S.
+
+| ![astigmatism](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/astigmatism.png) | ![Astigmatism: The image of point G is at point BM for rays in plane M, and at point BS for rays in plane S.](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Meridional%2BSagittalPlane.png) |
+| ------------------- |----- |
+
+#### Coma
+Coma of a single lens: each cone of light focuses on different planes along the optical axis.
+
+| ![coma](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/coma.png) | ![coma](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Lens_coma.svg) |
+| ------------------- |----- |
+
+#### Axial chromatic and spherical aberration
+Each manufacturer matching the immersion oil to their lenses, because other type can  induce axial chromatic aberration. The spherical aberration appears because in the reality there is no such thing as ideal thin lens, they have volume and curved surfaces. Common causes of spherical aberration  are the incorrect slip thickness, mismatch of the reflective index. 
+
+| ![chromatic](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/chromatic.png) | ![wrongimmersionoilinducechromaticaberration]() | ![spherical](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/spherical.png) | ![spherical_aberration](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/spherical_aberration.png) | ![spherical_in_reality](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/spherical_in_reality.png) |
+| ------------------- |----- |----- |----- |----- |
+
+Because of this nowdays the lens systems are extreamly complex systems. To solve this we have to know the optical path length. The $OPL$ is the physical length of every material in that optical system, times its refractive index, summed up through the entire lens system to the point in the specimen that you'are imaging. 
+
+$$OPL = ((L_1 \times n_1) + (L_2 \times n_2) ... + (L_n \times n_n))$$
+
+Where $L$ is the physical distance, $n$ is the refractive index of the mounting media *(air = 1.0; water = 1.33, glycerin=1.47, oil = 1.515)*
+But in this equation the immersion media is a variable, immersion media decreases its refractive index as it warms up! Coverglasses ha a 10% $\pm$ thickness range. The specimen may vary in a long range, depends on the material.
+
+| ![opl](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/opl.png) | ![influencesontheopticalpathlength](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/influencesontheopticalpathlength.png) | ![spherical_corrected](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/spherical_corrected.png) |
+|----- |----- | ----- | 
 
