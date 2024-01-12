@@ -4,7 +4,8 @@
 > Other useful links:
 > - [ComponentLibrary (a vector graphics library for illustrations of optics experiments)](http://www.gwoptics.org/ComponentLibrary/)
 > - [Demystifying Microscopes: Disassembling a Nikon Ti Eclipse Microscope](https://www.ibiology.org/talks/nikon-ti-eclipse-microscope/) | [YouTube](https://youtu.be/DAV0X1c3s-g?si=pcsGO-8EVUfC9A5e)
-> - [Microscopy: Diffraction (Jeff Lichtman)](https://www.youtube.com/watch?v=V8JXPqDWFcM)
+> - [Physics of Nondestructive Evaluation](https://www.nde-ed.org/Physics/index.xhtml)
+> - [openstax.org - Introduction to Geometric Optics](https://openstax.org/books/college-physics-2e/pages/25-introduction-to-geometric-optics)
 
 ## Historical Contributions from Light Microscopy: What Can You Learn with a Light Microscope? (Ron Vale, HHMI/UCSF)
 > [link](https://www.ibiology.org/talks/light-microscopy/) | [YouTube](https://www.youtube.com/watch?v=4c5ILWQmqRY&t=7s)
@@ -224,4 +225,68 @@ But in this equation the immersion media is a variable, immersion media decrease
 
 | ![opl](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/opl.png) | ![influencesontheopticalpathlength](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/influencesontheopticalpathlength.png) | ![spherical_corrected](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Objectives%20and%20Eyepieces%20(Stephen%20Ross)/spherical_corrected.png) |
 |----- |----- | ----- | 
+
+## Huygens Wavelets Constructive/Destructive Interference, and Diffraction
+> [lecture site](https://www.ibiology.org/talks/diffraction/) | [YouTube](https://www.youtube.com/watch?v=V8JXPqDWFcM) | [KhanAcademy](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-wave-optics) | [plane waves and spherical waves book](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/plane%20waves%20and%20spherica%20waves.pdf) | [openstax](https://openstax.org/books/college-physics-2e/pages/27-introduction-to-wave-optics)
+>
+> Light has properties of particles and waves. Understanding the wave nature of light is essential to understanding the workings of a microscope. This lecture describes Huygens Wavelets, constructive/destructive interference, and diffraction.
+
+A [pinhole camera, or camera obscura](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Pinhole-camera.svg%20-%20Wikipedia.png) simply create an image about the object if you put a paper in a good focus distance.
+
+| ![light trough pinhole](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Light%20behaviour%20through%20pinhole.svg%20-%20Wikipedia.png) | ![pinhole camera](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Pinhole-camera.svg%20-%20Wikipedia.png) |
+| --- | --- |
+
+This is the good example for the light is not travelling in rays, because if it would then we can get a larger image if we move the paper backward. As we can see in the [wave optis](https://www.sciencedirect.com/topics/physics-and-astronomy/wave-optics), we have plane waves, because it is not just going up and down, but it is a 3D imensional thing, and there are a lot of planes behind each other.
+
+
+![waveoptics](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Huygens%20Wavelets%20ConstructiveDestructive%20Interference%2C%20and%20Diffraction/waveoptics.png)
+
+[Plane waves](https://www.nde-ed.org/Physics/Waves/planewaves.xhtml) are a special case of waves where a physical quantity, such as phase, is constant over a plane that is perpendicular to the direction of wave travel. There can be mechanical (both transverseand longitudinal) as well as EM plane waves. It should be noted that EM plane waves are only transverse. A visualization of a plane wave is shown below. Just like periodic waves, plane waves have a wavelength, frequency, and wave speed. 
+
+| ![planewave](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Huygens%20Wavelets%20ConstructiveDestructive%20Interference%2C%20and%20Diffraction/planewave.png) | ![plane wave structure](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/plane%20wave.png) |
+| ---- | --- | 
+
+When EM waves radiate from a source, such as an antenna, they radiate as [spherical waves](https://academo.org/demos/spherical-waves/) (see the figure below). As the waves move farther from the source, their energy gets spread out over a bigger spherical surface area. At big distances, which we call the far-field, a spherical wave front can be approximated as a uniform plane wave over a defined area.  
+
+| ![spherical vs plane wave](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/plane_waves.gif) | ![spherical wave](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/spherical%20wave.png) |
+| ---- | --- | 
+
+Here clearly we can see that how the waves "power" is missed if we increase the surface. [The equation below](https://www.soundonsound.com/sound-advice/q-does-strength-proximity-effect-depend-volume-source) describe this: $$intensity = \frac{P}{4\pi r^2}$$ where $P$ is the point source power.
+
+> ### To understand better this, we have some basic definitions
+>
+> #### Velocity
+> The distance covered by the wave in unit time.
+>
+> #### Frequency
+> The number of complete disturbances (cycles) in unit time. Usually expressed in Hertz
+>
+> #### Wavelength
+> The distance between successive points of equal phase in a wave.
+
+$$\text{wavelenght } (\lambda) = \frac{\text{Velocity (v)}}{Frequency (f)}$$
+
+### waves
+
+Why intensity of a light wave is proportional to the $amplitude^2$ ? Generating a 4X larger wave requires 4 times the force over four times the distance = 16 times the energy. When such a wave imparts its energy to a detector we measure its enery as intensity: hence 4 times the amplitude is 16 times as brightness!
+
+The intensity of a wave is the wavelet. The wavelet is the component that generates plane waves and spherical waves, [as Hyugens wrote it](https://www.nature.com/articles/s41598-021-99049-7). 
+
+| ![hyugens](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Huygens%20Wavelets%20ConstructiveDestructive%20Interference%2C%20and%20Diffraction/hyugens.png) | ![wavelet](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Huygens%20Wavelets%20ConstructiveDestructive%20Interference%2C%20and%20Diffraction/wavelet.png) | ![hyugens wave](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Wavelength%3Dslitwidth.gif) | 
+| ---- | --- |--- |
+
+### Interference
+The waves can make each other "stronger" or "weaker" based on the point where they intersect. This makes the [pinholes](https://en.wikipedia.org/wiki/Pinhole_(optics)) able to work. 
+![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Waventerference.gif)
+
+| ![pinhole](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Huygens%20Wavelets%20ConstructiveDestructive%20Interference%2C%20and%20Diffraction/pinhole.png) | ![pinholes](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Huygens%20Wavelets%20ConstructiveDestructive%20Interference%2C%20and%20Diffraction/pinholes.png) |
+| ---- | ----- |
+| ![pinhole_waves](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Huygens%20Wavelets%20ConstructiveDestructive%20Interference%2C%20and%20Diffraction/pinhole_waves.png) | ![image_of_pinholes](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Huygens%20Wavelets%20ConstructiveDestructive%20Interference%2C%20and%20Diffraction/image_of_pinholes.png) |
+
+
+
+
+
+
+
 
