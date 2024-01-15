@@ -239,7 +239,7 @@ But in this equation the immersion media is a variable, immersion media decrease
 |----- |----- | ----- | 
 
 ## Huygens Wavelets Constructive/Destructive Interference, and Diffraction
-> [lecture site](https://www.ibiology.org/talks/diffraction/) | [YouTube](https://www.youtube.com/watch?v=V8JXPqDWFcM) | [KhanAcademy](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-wave-optics) | [plane waves and spherical waves book](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/plane%20waves%20and%20spherica%20waves.pdf) | [openstax](https://openstax.org/books/college-physics-2e/pages/27-introduction-to-wave-optics)
+> [lecture site](https://www.ibiology.org/talks/diffraction/) | [YouTube](https://www.youtube.com/watch?v=V8JXPqDWFcM) | [KhanAcademy](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-wave-optics) | [plane waves and spherical waves book](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/plane%20waves%20and%20spherica%20waves.pdf) | [openstax](https://openstax.org/books/college-physics-2e/pages/27-introduction-to-wave-optics) | [prof Sean Victor Hum - Spherical Waves](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/prof_Sean_Victor_Hum-spherical_waves.pdf) | [Dr. Daniel Mittleman - Reflection and Refraction](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/lecture12_1-Reflection%20and%20Refraction.pdf) 
 >
 > Light has properties of particles and waves. Understanding the wave nature of light is essential to understanding the workings of a microscope. This lecture describes Huygens Wavelets, constructive/destructive interference, and diffraction.
 
@@ -302,6 +302,7 @@ The waves can make each other "stronger" or "weaker" based on the point where th
 
 | ![wave_optic_view_of_effect]() | ![]() |
 | ---------- | ---- |
+| Here the *Objective* is a microsope objective, which is a complex lens system basically. The *Objective* is exactly in the focal distance, from the *point source*, that's why we can say that the point is in focus for this lens. In this image, this lens turns the [spherical wave](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/lecture12_1-Reflection%20and%20Refraction.pdf) into [plane waves](https://en.wikipedia.org/wiki/Plane_wave). | | 
 
 
 
