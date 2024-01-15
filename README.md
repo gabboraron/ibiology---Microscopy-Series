@@ -6,6 +6,7 @@
 > - [Demystifying Microscopes: Disassembling a Nikon Ti Eclipse Microscope](https://www.ibiology.org/talks/nikon-ti-eclipse-microscope/) | [YouTube](https://youtu.be/DAV0X1c3s-g?si=pcsGO-8EVUfC9A5e)
 > - [Physics of Nondestructive Evaluation](https://www.nde-ed.org/Physics/index.xhtml)
 > - [openstax.org - Introduction to Geometric Optics](https://openstax.org/books/college-physics-2e/pages/25-introduction-to-geometric-optics)
+> - [lumenlearning.com - Physics](https://courses.lumenlearning.com/suny-physics/)
 >
 > **Contents:**
 > - [Historical Contributions from Light Microscopy: What Can You Learn with a Light Microscope? (Ron Vale, HHMI/UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series#historical-contributions-from-light-microscopy-what-can-you-learn-with-a-light-microscope-ron-vale-hhmiucsf)
@@ -14,7 +15,7 @@
 > - [Microscope Imaging and Koehler Illumination (Ron Vale, HHMI/UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series#microscope-imaging-and-koehler-illumination-ron-vale-hhmiucsf)
 > - [Objective Lenses and Eyepieces - Steve Ross](https://github.com/gabboraron/ibiology---Microscopy-Series#objective-lenses-and-eyepieces---steve-ross)
 > - [Huygens Wavelets Constructive/Destructive Interference, and Diffraction](https://github.com/gabboraron/ibiology---Microscopy-Series#huygens-wavelets-constructivedestructive-interference-and-diffraction)
-> - [Point Spread Function (Jeff Lichtman, Harvard University)]()
+> - [Point Spread Function (Jeff Lichtman, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#point-spread-function-jeff-lichtman-harvard-university)
 >
 > ---------
 
@@ -295,7 +296,12 @@ The waves can make each other "stronger" or "weaker" based on the point where th
 | ![pinhole_waves](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Huygens%20Wavelets%20ConstructiveDestructive%20Interference%2C%20and%20Diffraction/pinhole_waves.png) | ![image_of_pinholes](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Huygens%20Wavelets%20ConstructiveDestructive%20Interference%2C%20and%20Diffraction/image_of_pinholes.png) |
 
 ## Point Spread Function (Jeff Lichtman, Harvard University)
+> [course site](https://www.ibiology.org/talks/point-spread-function/) | [YouTube](https://www.youtube.com/watch?v=JQy94K94nL0) | [lumenlearning.com ~ Physics -  *Extended Topic* Microscopy Enhanced by the Wave Characteristics of Light](https://courses.lumenlearning.com/suny-physics/chapter/27-9-extended-topic-microscopy-enhanced-by-the-wave-characteristics-of-light/)
+>
+> An infinitesimally small point appears in the microscope as a spot with a certain size, blurred in the z-direction and with concentric rings around it. This “point spread function” reveals many of the optical properties of your microscope. This lecture explains why and how the microscope images a point as a point spread function.
 
+| ![wave_optic_view_of_effect]() | ![]() |
+| ---------- | ---- |
 
 
 
