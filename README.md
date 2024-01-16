@@ -16,7 +16,8 @@
 > - [Objective Lenses and Eyepieces - Steve Ross](https://github.com/gabboraron/ibiology---Microscopy-Series#objective-lenses-and-eyepieces---steve-ross)
 > - [Huygens Wavelets Constructive/Destructive Interference, and Diffraction](https://github.com/gabboraron/ibiology---Microscopy-Series#huygens-wavelets-constructivedestructive-interference-and-diffraction)
 > - [Point Spread Function (Jeff Lichtman, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#point-spread-function-jeff-lichtman-harvard-university)
->
+> - [Resolution of a Microscope (Jeff Lichtman, Harvard University)]()
+> 
 > ---------
 
 ## Historical Contributions from Light Microscopy: What Can You Learn with a Light Microscope? (Ron Vale, HHMI/UCSF)
@@ -247,6 +248,9 @@ But in this equation the immersion media is a variable, immersion media decrease
 >
 > Light has properties of particles and waves. Understanding the wave nature of light is essential to understanding the workings of a microscope. This lecture describes Huygens Wavelets, constructive/destructive interference, and diffraction.
 
+$$d \cdot sin \theta = n \lambda$$
+[Where](https://isaacphysics.org/concepts/cp_diffraction?stage=all): $d$ is the distance between slits; $\theta$ is diffraction angle; $n$ is the order number for the maximum; $\lambda$ wavelength
+
 A [pinhole camera, or camera obscura](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Pinhole-camera.svg%20-%20Wikipedia.png) simply create an image about the object if you put a paper in a good focus distance.
 
 | ![light trough pinhole](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Light%20behaviour%20through%20pinhole.svg%20-%20Wikipedia.png) | ![pinhole camera](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Pinhole-camera.svg%20-%20Wikipedia.png) |
@@ -333,3 +337,46 @@ Airy disk equation is about the center of the light and the first black ring: $\
 
 ![na_depth](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Point%20Spread%20Function%20(Jeff%20Lichtman)/na_depth.png)
 
+## Resolution of a Microscope (Jeff Lichtman, Harvard University)
+> [lecture site](https://www.ibiology.org/talks/resolution-of-a-microscope/) | [YouTube](https://www.youtube.com/watch?v=n2asdncMYMo) | [lumenlearning.com - Physics, wave optics, *Limits of Resolution: The Rayleigh Criterion*](https://courses.lumenlearning.com/suny-physics/chapter/27-6-limits-of-resolution-the-rayleigh-criterion/)
+>
+> The resolution of a microscope can be defined as the smallest distance at which two small objects can still be seen as separate objects. This lecture discusses various criteria for resolution, the factors that influence resolution in the lateral and axial planes, and how to sample an image adequately using a camera or confocal microscope, such that the full optical resolution is retained.
+
+This question is not about how close they are in real space, it is about how close they are in image space and still we can resolve as separate objects. There is no generally-accepted criterion but most microscopists use the Rayleigh criterion, partly because the distance between two points is $\frac{0.61 \lambda}{NA} $ if we talk about the lateral criterion. If we talk about the depth criterion in xz or yz then this is $\frac{2n \lambda}{NA^2}$ 
+
+| ![rayleighcriterion_lateralanddepth](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Resolution%20(Jeff%20Lichtman)/rayleighcriterion_lateralanddepth.png) | ![image_of_small_specimen](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Resolution%20(Jeff%20Lichtman)/image_of_small_specimen.png) |
+| --- | --- |
+
+
+> ### Rayleigh criterion
+>
+> [The Rayleigh criterion](http://hyperphysics.phy-astr.gsu.edu/hbase/phyopt/Raylei.html) is the generally accepted criterion for the minimum resolvable detail - the imaging process is said to be diffraction-limited when the first diffraction minimum of the image of one source point coincides with the maximum of another.
+> | ![diffraction](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/diffraction.jpg) | ![Rayleigh criteria](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/rayc.gif) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Figure_28_06_02a.jpg) |
+> | ----- | ----- | ----- |
+> 
+> | $$sin \theta_R = \frac{\lambda}{d}$$ | $$sin \theta_R = 1.22 \frac{\lambda}{d}$$ |
+> | ----- | ----- |
+> | Single slit | Circular aperture |
+> 
+> If all parts of an imaging system are considered to be perfect, then the resolution of any imaging process will be limited by diffraction. Considering the single slit expression above, then when the wavelength is equal to the slit width, the angle for the first diffraction minimum is 90°. This means that the wave is spread all the way to the plane of the slit and will not contain resolvable information about the source of the wave. This leads to the simplified statement that the limit of resolution of any imaging process is going to be on the order of the wavelength of the wave used to image it.
+
+### Aliasing
+
+| ![aliasing1](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Resolution%20(Jeff%20Lichtman)/aliasing1.png) | ![aliasing2](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Resolution%20(Jeff%20Lichtman)/aliasing2.png) | ![aliasing3](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Resolution%20(Jeff%20Lichtman)/aliasing3.png) |
+| ---- | --- |---- |
+
+This can be solved if we increase the number of pixels, but what should be the exact number? This is told by [Nyquist limit](https://imb.uq.edu.au/research/facilities/microscopy/training-manuals/microscopy-online-resources/image-capture/nyquist-conditions), which  *"states that a periodic signal must be sampled at more than twice the highest frequency component of the signal. In imaging, we recommend sampling at least 2.3X the highest frequency."* : $0.3 \lambda / NA$ . 
+
+| ![sampling](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Resolution%20(Jeff%20Lichtman)/sampling.png) | ![samplingsolved](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Resolution%20(Jeff%20Lichtman)/samplingsolved.png) | ![samplingexample](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Resolution%20(Jeff%20Lichtman)/samplingexample.png) | ![solution](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Resolution%20(Jeff%20Lichtman)/solution.png) |
+| ------ | ---- | ------ |  ------ | 
+
+
+> | ![cell moving](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/nyquist1.png) ![lower resolution](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/nyquist2.png) | ![resolution settings](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/nyquist3.png) |
+> | --- | --- |
+> | Let's look at this first example where we collect an image over time. In other words, for a cell with diameter of 10 um that moves at 5 um/ minute, calculation: $$\frac{10 um}{2.3 \cdot 5 \frac{um}{m}} = \text{52 secs}$$ Therefore, we need to sample the data with a time resolution of a minimum of 52 seconds to be able to capture the movement correctly. Here, we are able to visualize the cell moving from the top left corner, to the bottom right corner and reliably determine it is the same cell. However, if we collect an image every 2 minutes, we cannot determine if this is the same cell, or if these are 2 different cells. However, if instead of tracking the entire cell, we are interested in tracking the nucleus which is 5 um in diameter, then we would need to collect another image every 26 seconds. $$\frac{5um}{2.3 \cdot 5 \frac{um}{min}} = \text{26 sec}$$ | Likewise, if the width of your cell is 10 um, you need XY resolution to be less than 5um to be able to resolve 2 cells next to each other. |
+>
+> *Resolution is the ability of an objective to definitively resolve an object, or group of objects, as a single entity(s). Magnification plays no part in the ability of an objective to resolve an object of a given size. While magnification will make an image bigger, it will not necessarily make it clearer. Resolution is governed solely by the Numerical Aperture (NA) of the objective, the wavelength of light and for axial resolution, the refractive index of the sample. Magnification will affect how much light the objective can collect. Higher magnification objectives collect less light, so where possible use the highest NA, lowest magnification objective available.*
+>
+> *It is important when discriminating small structures that the [Nyquist Sampling Criteria](https://imb.uq.edu.au/research/facilities/microscopy/training-manuals/microscopy-online-resources/image-capture/nyquist-conditions) is satisfied. Nyquist Sampling dictates that to optimally represent an analogue signal in digital space, **the analogue signal needs to be sampled at least 2.3 times. In microscopy terms this means that the pixel size of an image needs to be at least 2.3 times smaller than the object that is being resolved.***
+>
+> **[Microscopy Nyquist rate and PSF calculator](https://svi.nl/Nyquist-Calculator)**
