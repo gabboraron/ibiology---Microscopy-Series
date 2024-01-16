@@ -16,7 +16,7 @@
 > - [Objective Lenses and Eyepieces - Steve Ross](https://github.com/gabboraron/ibiology---Microscopy-Series#objective-lenses-and-eyepieces---steve-ross)
 > - [Huygens Wavelets Constructive/Destructive Interference, and Diffraction](https://github.com/gabboraron/ibiology---Microscopy-Series#huygens-wavelets-constructivedestructive-interference-and-diffraction)
 > - [Point Spread Function (Jeff Lichtman, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#point-spread-function-jeff-lichtman-harvard-university)
-> - [Resolution of a Microscope (Jeff Lichtman, Harvard University)]()
+> - [Resolution of a Microscope (Jeff Lichtman, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#resolution-of-a-microscope-jeff-lichtman-harvard-university)
 > 
 > ---------
 
