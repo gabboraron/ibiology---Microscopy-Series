@@ -18,7 +18,7 @@
 > - [Huygens Wavelets Constructive/Destructive Interference, and Diffraction](https://github.com/gabboraron/ibiology---Microscopy-Series#huygens-wavelets-constructivedestructive-interference-and-diffraction)
 > - [Point Spread Function (Jeff Lichtman, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#point-spread-function-jeff-lichtman-harvard-university)
 > - [Resolution of a Microscope (Jeff Lichtman, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#resolution-of-a-microscope-jeff-lichtman-harvard-university)
-> - [Bonus: Photons: What is Light? (Bo Huang, UCSF)]()
+> - [Bonus: Photons: What is Light? (Bo Huang, UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series#bonus-photons-what-is-light-bo-huang-ucsf)
 > 
 > ---------
 
@@ -384,28 +384,54 @@ This can be solved if we increase the number of pixels, but what should be the e
 > **[Microscopy Nyquist rate and PSF calculator](https://svi.nl/Nyquist-Calculator)**
 
 ## Bonus: Photons: What is Light? (Bo Huang, UCSF)
-> [lecture site](https://www.ibiology.org/talks/photons/)  | [YouTube](https://www.youtube.com/watch?v=VzThe929HrU)
+> [lecture site](https://www.ibiology.org/talks/photons/)  | [YouTube](https://www.youtube.com/watch?v=VzThe929HrU) | [Maxwell's Equations and Light Waves](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/lecture03_1.pdf)
 >
 > This lecture discusses the many aspects of light. Light can be described as rays, waves, or particles. Various aspects of all three of these descriptions are presented, such as ray tracing, wavelength, frequency, refraction, dispersion, diffraction, interference, the photoelectric effect and photons as the quantized energy of light.
 
+### Light is a ray
+
 It is easy to think about the light as rays. We can explain a lot phenomena with this idea, such as focal and image length; focal point; lens maker equation or ray tracing.
 
-| ![focallength]() | ![lensmakers_equation]() | ![raytracing]() |
+| ![focallength](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/focallength.png) | ![lensmakers_equation](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/lensmakers_equation.png) | ![raytracing](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/raytracing.png) |
 | --- | --- | --- |
 
-what we can't explain with the idea of rays we can explain as waves and the oscillation of waves. A wave has a few descriptor, such as wavelength $\lambda$ which is a the length between two oscillation or the number of oscillations, $\nu$ which is the frequancy. These sets the speed of the light $c=\nu \lambda = \text{2992792458 m/s in vacuum}$ .If we want to see it in other medium then we can calculate like this: $n=\frac{c}{\text{speed in the medium}} = \frac{ \lambda_{vacuum}}{ \lambda_{medium}}$ This is the refractive index, which tell you the direction of the light based on [Snell's law](https://en.wikipedia.org/wiki/Snell%27s_law): $n_1 sin \theta_1 = n_2 sin \theta_2$ .
+### Light is a wave
 
-| ![wavelength]() | ![refractive_index.png]() | ![explainingrefraction]() |
-| ---- | ---- | ---- |
+What we can't explain with the idea of rays we can explain as waves and the oscillation of waves. A wave has a few descriptor, such as wavelength $\lambda$ which is a the length between two oscillation or the number of oscillations, $\nu$ which is the frequancy. These sets the speed of the light $c=\nu \lambda = \text{2992792458 m/s in vacuum}$ .If we want to see it in other medium then we can calculate like this: $n=\frac{c}{\text{speed in the medium}} = \frac{ \lambda_{vacuum}}{ \lambda_{medium}}$ This is the refractive index, which tell you the direction of the light based on [Snell's law](https://en.wikipedia.org/wiki/Snell%27s_law): $n_1 sin \theta_1 = n_2 sin \theta_2$ .
+
+| ![wavelength](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/wavelength.png) | ![refractive_index.png](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/refractive_index.png) | ![explainingrefraction](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/explainingrefraction.png) | ![sinusoidal wave](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Sine_voltage.svg.png) |
+| ---- | ---- | ---- | ---- | 
 
 Based on this we can add waves to each other, this is interference. If the distance betwee n two added waves peak position is enough small $\Delta \varphi$ the waves will help each other and it will be constructive interference. If not than we call destructive interference. Of course if we have a thin glass than the refraction depends on the wavelength and as wee see the depth of the glass as well. But in most cases we don't have such pure interference. 
 
-| ![interference]() | ![constructive_interference]() | ![destructive_interference]() | ![examplerefraction]() |
+| ![interference](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/interference.png) | ![constructive_interference](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/constructive_interference.png) | ![destructive_interference](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/destructive_interference.png) | ![examplerefraction](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/examplerefraction.png) |
 | ---- | --- | ---- | ---- |
 
 $$\text{light propagation = diffraction + interference}$$
 
-In a diffraction if we have an incoming plane wave then after the diffraction in reality we have plane waves again because of the interference, because a plane wave technically is a lot of spherical wave.
+In a diffraction if we have an incoming plane wave then after the diffraction in reality we have plane waves again because of the interference, because a plane wave technically is a lot of spherical waves. To describe this if we have a point after the aperture, and all kind of light waves are coming to this point, each of them has [amplitude](https://en.wikipedia.org/wiki/Amplitude) $A$ with travel distance $l$. So the amplitude at total at this point will be $\sum A_i sin(\frac{2 \pi l_i}{\lambda})$ which makes the intensity in this point $I = A^2$ .
 
-| ![interferenceanddiffraction]() | ![]() |
-| ---- | ---- |
+| ![interferenceanddiffraction](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/interferenceanddiffraction.png) | ![interference_example](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/interference_example.png) | ![double_slit_interference](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/double_slit_interference.png) | ![double_slit_interference2](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/double_slit_interference2.png) | 
+| ---- | ---- | ---- | ---- |
+
+### Light is a particle of an electromagnetic wave
+To understand this we need [Maxwell's equations](https://en.wikipedia.org/wiki/Maxwell%27s_equations): 
+
+$$\nabla \cdot E = \frac{ \rho }{ \varepsilon_0 }$$
+Coulumb's law says charges can generate static electric field. The electric field is proportional with the charge density.
+
+$$\nabla \cdot B = 0$$
+The magnetic force lines forms circles. There is no charge for magnetic fields. 
+
+$$\nabla \cdot E = \frac{\delta B}{ \delta t}$$
+Changing magnetic field generates electric field.
+
+$$\nabla \cdot B = \mu_0J + \mu_0 \varepsilon_0 \frac{\delta E}{ \delta t}$$
+The electric current and changing electric field generate magentic field.
+
+The light is an electric field which generates a magnetic field which generates a magnetic field....
+
+We can see this if we use a polarizer because these waves are perpendicular to each other.
+
+| ![light_as_elevtromagnetic_field](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/light_as_elevtromagnetic_field.png) | ![polarization](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/polarization.png) | ![quantized_energy_of_light](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/quantized_energy_of_light.png) | ![wave_particle_duality](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/wave_particle_duality.png) |
+| ----------- | ------------ | ------------ | ------------ |
