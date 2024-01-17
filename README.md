@@ -442,6 +442,13 @@ We can see this if we use a polarizer because these waves are perpendicular to e
 >
 > The Fourier transform is intimately associated with microscopy, since the alternating planes occurring in the microscope (focal plane – back-focal plane, etc.) are related to each other by a function very similar to the Fourier transform. This lectures explains the Fourier transform in terms understandable to non-mathematicians, and explains the relations with microscopy.
 
-We have $I(r) = A sin(k \cdot r + \varphi_0$ and  $F(x) = \sum G(x) sin(k x)$. Furier transform is about to cconvert one sinusoid function to a squered function. This is the way how e transform an image into a Furier image which is in frequency space.
+We have $I(r) = A sin(k \cdot r + \varphi_0$ and  $F(x) = \sum G(x) sin(k x)$. Fourier transform is about to cconvert one sinusoid function to a squered function. This is the way how e transform an image into a Furier image which is in frequency space. We can do the inverse direction too.
 
-![convert]()  
+| ![convert](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fourier%20Space%20(Bo%20Huang)/convert.png) | ![furierspace](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fourier%20Space%20(Bo%20Huang)/furierspace.png) | ![cuttedaroundcenter](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fourier%20Space%20(Bo%20Huang)/cuttedaroundcenter.png) | ![centercutted](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fourier%20Space%20(Bo%20Huang)/centercutted.png) | ![fourier_transform_objective_lens](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fourier%20Space%20(Bo%20Huang)/fourier_transform_objective_lens.png) |
+| ---- | ----- |---- | ----- |----- |
+
+Furier transform of light intesity and the phase, at the aperture is the point spread function of the microscope.
+
+| ![resolution](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fourier%20Space%20(Bo%20Huang)/resolution.png) | ![psf](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fourier%20Space%20(Bo%20Huang)/psf.png) |
+| --- | ---- |
+  
