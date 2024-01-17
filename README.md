@@ -19,7 +19,8 @@
 > - [Point Spread Function (Jeff Lichtman, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#point-spread-function-jeff-lichtman-harvard-university)
 > - [Resolution of a Microscope (Jeff Lichtman, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#resolution-of-a-microscope-jeff-lichtman-harvard-university)
 > - [Bonus: Photons: What is Light? (Bo Huang, UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series#bonus-photons-what-is-light-bo-huang-ucsf)
-> 
+> - [Bonus: Fourier Space: Fourier Transform (Bo Huang, UCSF)]()
+>
 > ---------
 
 ## Historical Contributions from Light Microscopy: What Can You Learn with a Light Microscope? (Ron Vale, HHMI/UCSF)
@@ -110,7 +111,7 @@ The law of refraction follows directly from the fact that the speed $v$ with whi
 
 The law of refraction, also known as [Snell’s law](https://www.britannica.com/science/Snells-law), describes the relationship between the angle of incidence ($\phi_1$) and the angle of refraction ($\phi_2$), measured with respect to the normal (“perpendicular line”) to the surface, in mathematical terms: $n_1 sin \phi_1 = n_2 sin \phi_2$, where $n_1$ and $n_2$ are the index of refraction of the first and second media, respectively.
 
-> ***These equations will tell you how much light will going to.****
+> ***These equations will tell you how much light will going to.***
 
 $$transmitted + reflected + absorbed = \text{total amount of light}$$
 
@@ -435,3 +436,12 @@ We can see this if we use a polarizer because these waves are perpendicular to e
 
 | ![light_as_elevtromagnetic_field](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/light_as_elevtromagnetic_field.png) | ![polarization](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/polarization.png) | ![quantized_energy_of_light](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/quantized_energy_of_light.png) | ![wave_particle_duality](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20What%20Is%20Light%20(Bo%20Huang)/wave_particle_duality.png) |
 | ----------- | ------------ | ------------ | ------------ |
+
+## Bonus: Fourier Space: Fourier Transform (Bo Huang, UCSF)
+> [course link](https://www.ibiology.org/talks/fourier-transform/) | [YouTube](https://www.youtube.com/watch?v=xhO8iz2qCOE)
+>
+> The Fourier transform is intimately associated with microscopy, since the alternating planes occurring in the microscope (focal plane – back-focal plane, etc.) are related to each other by a function very similar to the Fourier transform. This lectures explains the Fourier transform in terms understandable to non-mathematicians, and explains the relations with microscopy.
+
+We have $I(r) = A sin(k \cdot r + \varphi_0$ and  $F(x) = \sum G(x) sin(k x)$. Furier transform is about to cconvert one sinusoid function to a squered function. This is the way how e transform an image into a Furier image which is in frequency space.
+
+![convert]()  
