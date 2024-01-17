@@ -7,6 +7,7 @@
 > - [Physics of Nondestructive Evaluation](https://www.nde-ed.org/Physics/index.xhtml)
 > - [openstax.org - Introduction to Geometric Optics](https://openstax.org/books/college-physics-2e/pages/25-introduction-to-geometric-optics)
 > - [lumenlearning.com - Physics](https://courses.lumenlearning.com/suny-physics/)
+> - [Ansys Education Resources](https://www.ansys.com/academic/educators/education-resources#q=optics&t=EducationResourcesTab&sort=relevancy&layout=card&numberOfResults=15)
 >
 > **Contents:**
 > - [Historical Contributions from Light Microscopy: What Can You Learn with a Light Microscope? (Ron Vale, HHMI/UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series#historical-contributions-from-light-microscopy-what-can-you-learn-with-a-light-microscope-ron-vale-hhmiucsf)
@@ -17,6 +18,7 @@
 > - [Huygens Wavelets Constructive/Destructive Interference, and Diffraction](https://github.com/gabboraron/ibiology---Microscopy-Series#huygens-wavelets-constructivedestructive-interference-and-diffraction)
 > - [Point Spread Function (Jeff Lichtman, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#point-spread-function-jeff-lichtman-harvard-university)
 > - [Resolution of a Microscope (Jeff Lichtman, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#resolution-of-a-microscope-jeff-lichtman-harvard-university)
+> - [Bonus: Photons: What is Light? (Bo Huang, UCSF)]()
 > 
 > ---------
 
@@ -380,3 +382,30 @@ This can be solved if we increase the number of pixels, but what should be the e
 > *It is important when discriminating small structures that the [Nyquist Sampling Criteria](https://imb.uq.edu.au/research/facilities/microscopy/training-manuals/microscopy-online-resources/image-capture/nyquist-conditions) is satisfied. Nyquist Sampling dictates that to optimally represent an analogue signal in digital space, **the analogue signal needs to be sampled at least 2.3 times. In microscopy terms this means that the pixel size of an image needs to be at least 2.3 times smaller than the object that is being resolved.***
 >
 > **[Microscopy Nyquist rate and PSF calculator](https://svi.nl/Nyquist-Calculator)**
+
+## Bonus: Photons: What is Light? (Bo Huang, UCSF)
+> [lecture site](https://www.ibiology.org/talks/photons/)  | [YouTube](https://www.youtube.com/watch?v=VzThe929HrU)
+>
+> This lecture discusses the many aspects of light. Light can be described as rays, waves, or particles. Various aspects of all three of these descriptions are presented, such as ray tracing, wavelength, frequency, refraction, dispersion, diffraction, interference, the photoelectric effect and photons as the quantized energy of light.
+
+It is easy to think about the light as rays. We can explain a lot phenomena with this idea, such as focal and image length; focal point; lens maker equation or ray tracing.
+
+| ![focallength]() | ![lensmakers_equation]() | ![raytracing]() |
+| --- | --- | --- |
+
+what we can't explain with the idea of rays we can explain as waves and the oscillation of waves. A wave has a few descriptor, such as wavelength $\lambda$ which is a the length between two oscillation or the number of oscillations, $\nu$ which is the frequancy. These sets the speed of the light $c=\nu \lambda = \text{2992792458 m/s in vacuum}$ .If we want to see it in other medium then we can calculate like this: $n=\frac{c}{\text{speed in the medium}} = \frac{ \lambda_{vacuum}}{ \lambda_{medium}}$ This is the refractive index, which tell you the direction of the light based on [Snell's law](https://en.wikipedia.org/wiki/Snell%27s_law): $n_1 sin \theta_1 = n_2 sin \theta_2$ .
+
+| ![wavelength]() | ![refractive_index.png]() | ![explainingrefraction]() |
+| ---- | ---- | ---- |
+
+Based on this we can add waves to each other, this is interference. If the distance betwee n two added waves peak position is enough small $\Delta \varphi$ the waves will help each other and it will be constructive interference. If not than we call destructive interference. Of course if we have a thin glass than the refraction depends on the wavelength and as wee see the depth of the glass as well. But in most cases we don't have such pure interference. 
+
+| ![interference]() | ![constructive_interference]() | ![destructive_interference]() | ![examplerefraction]() |
+| ---- | --- | ---- | ---- |
+
+$$\text{light propagation = diffraction + interference}$$
+
+In a diffraction if we have an incoming plane wave then after the diffraction in reality we have plane waves again because of the interference, because a plane wave technically is a lot of spherical wave.
+
+| ![interferenceanddiffraction]() | ![]() |
+| ---- | ---- |
