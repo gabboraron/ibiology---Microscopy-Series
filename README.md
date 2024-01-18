@@ -8,6 +8,7 @@
 > - [openstax.org - Introduction to Geometric Optics](https://openstax.org/books/college-physics-2e/pages/25-introduction-to-geometric-optics)
 > - [lumenlearning.com - Physics](https://courses.lumenlearning.com/suny-physics/)
 > - [Ansys Education Resources](https://www.ansys.com/academic/educators/education-resources#q=optics&t=EducationResourcesTab&sort=relevancy&layout=card&numberOfResults=15)
+> - [MicroscopyU - the source for microscopy education | Nikon](https://www.microscopyu.com/microscopy-basics)
 >
 > **Contents:**
 > - [Historical Contributions from Light Microscopy: What Can You Learn with a Light Microscope? (Ron Vale, HHMI/UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series#historical-contributions-from-light-microscopy-what-can-you-learn-with-a-light-microscope-ron-vale-hhmiucsf)
@@ -20,7 +21,8 @@
 > - [Resolution of a Microscope (Jeff Lichtman, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#resolution-of-a-microscope-jeff-lichtman-harvard-university)
 > - [Bonus: Photons: What is Light? (Bo Huang, UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series#bonus-photons-what-is-light-bo-huang-ucsf)
 > - [Bonus: Fourier Space: Fourier Transform (Bo Huang, UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#bonus-fourier-space-fourier-transform-bo-huang-ucsf)
-> - [Darkfield and Phase Contrast Microscopy (Edward Salmon, University of North Carolina)]()
+> - [Darkfield and Phase Contrast Microscopy (Edward Salmon, University of North Carolina)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#darkfield-and-phase-contrast-microscopy-edward-salmon-university-of-north-carolina)
+> - [Polarized Light and its Interaction with Material (Shinya Inoue, Marine Biological Laboratory)]()
 >
 > ---------
 
@@ -500,4 +502,11 @@ Usage in [Epi-flourescence mmicroscopy](https://www.thermofisher.com/ro/en/home/
 | ![epiimage](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Darkfield%20and%20Phase%20Contrast%20Microscopy%20(Edward%20Salmon)/epiimage.png) | ![epiflourescence](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Darkfield%20and%20Phase%20Contrast%20Microscopy%20(Edward%20Salmon)/epiflourescence.png) | ![epimic](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Darkfield%20and%20Phase%20Contrast%20Microscopy%20(Edward%20Salmon)/epimic.png) | ![optical train](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/epiflourescencemicopticaltrain.gif) |
 | ---- | ---- | ---- | --- |
 
+## Polarized Light and its Interaction with Material (Shinya Inoue, Marine Biological Laboratory)
+> [course site](https://www.ibiology.org/talks/polarized-light/) | [YouTube](https://www.youtube.com/watch?v=_-C2Db-aBuU)
+>
+> Shinya Inoue, one of the great innovators of polarization microscopy, describes what polarized light is and how light passing through a calcite crystal is split into two orthogonal polarized light beams.
+
+| ![calcyte](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Crystal_on_graph_paper.jpg) | ![polar filter](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Calcite_and_polarizing_filter.gif) | ![polarization](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Positively_birefringent_material.svg.png) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Polarized%20Light%20and%20its%20Interaction%20with%20Material%20(Shinya%20Inoue)/Screenshot%202024-01-18%20at%2012-56-23%20Microscopy%20Darkfield%20and%20Phase%20Contrast%20Microscopy%20(Edward%20Salmon).png) |
+| --- | ---- | ---- | --- |
 
