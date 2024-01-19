@@ -22,7 +22,8 @@
 > - [Bonus: Photons: What is Light? (Bo Huang, UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series#bonus-photons-what-is-light-bo-huang-ucsf)
 > - [Bonus: Fourier Space: Fourier Transform (Bo Huang, UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#bonus-fourier-space-fourier-transform-bo-huang-ucsf)
 > - [Darkfield and Phase Contrast Microscopy (Edward Salmon, University of North Carolina)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#darkfield-and-phase-contrast-microscopy-edward-salmon-university-of-north-carolina)
-> - [Polarized Light and its Interaction with Material (Shinya Inoue, Marine Biological Laboratory)]()
+> - [Polarized Light and its Interaction with Material (Shinya Inoue, Marine Biological Laboratory)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#polarized-light-and-its-interaction-with-material-shinya-inoue-marine-biological-laboratory)
+> - [Polarization Microscopy (Edward Salmon, University of North Carolina)()
 >
 > ---------
 
@@ -510,3 +511,28 @@ Usage in [Epi-flourescence mmicroscopy](https://www.thermofisher.com/ro/en/home/
 | ![calcyte](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Crystal_on_graph_paper.jpg) | ![polar filter](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Calcite_and_polarizing_filter.gif) | ![polarization](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Positively_birefringent_material.svg.png) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Polarized%20Light%20and%20its%20Interaction%20with%20Material%20(Shinya%20Inoue)/Screenshot%202024-01-18%20at%2012-56-23%20Microscopy%20Darkfield%20and%20Phase%20Contrast%20Microscopy%20(Edward%20Salmon).png) |
 | --- | ---- | ---- | --- |
 
+## Polarization Microscopy (Edward Salmon, University of North Carolina)
+> [Course site](https://www.ibiology.org/talks/polarization-microscopy/) | [YouTube](https://www.youtube.com/watch?v=Ph3AdDUG9vI) | [microscopyU - polarized light microscopy](https://www.microscopyu.com/techniques/polarized-light/polarized-light-microscopy) | [microscopyU -  Principles of Birefringence](https://www.microscopyu.com/techniques/polarized-light/principles-of-birefringence)
+>
+> Polarization microscopy probes the interaction of molecules with polarized light and is particularly good for examining well-order structures composed of polymers, such as the mitotic spindle. This lecture describes the components of a polarization microscope (e.g. polarizer, analyzer), birefringence and how it is exploited to generate images, adjusting a polarization microscope, examples of images, and new methods such the LC-Polscope.
+
+| ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/polarlightmic.jpg) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Interference%20Colors%20in%20Gout%20and%20Pseudo-Gout%20Crystals.png) |
+| --- | --- |
+
+
+Polarized light is a contrast-enhancing technique that improves the quality of the image obtained with birefringent materials when compared to other techniques such as darkfield and brightfield illumination, differential interference contrast, phase contrast, Hoffman modulation contrast, and fluorescence. Polarized light microscopes have a high degree of sensitivity and can be utilized for both quantitative and qualitative studies targeted at a wide range of anisotropic specimens. Qualitative polarizing microscopy is very popular in practice, with numerous volumes dedicated to the subject. In contrast, the quantitative aspects of polarized light microscopy, which is primarily employed in crystallography, represent a far more difficult subject that is usually restricted to geologists, mineralogists, and chemists. However, steady advances made over the past few years have enabled biologists to study the birefringent character of many anisotropic sub-cellular assemblies.
+
+
+| ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Separation%20of%20Light%20Waves%20by%20a%20Birefringent%20Crystal.png) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Birefringent%20Calcite%20Crystal%20Electric%20Vector%20Orientations.png) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Light%20Path%20Through%20a%20Calcite%20Crystal.png) |
+| --- |--- | --- |
+
+[Birefringence](https://www.microscopyu.com/techniques/polarized-light/principles-of-birefringence) is formally defined as the double refraction of light in a transparent, molecularly ordered material, which is manifested by the existence of orientation-dependent differences in refractive index. Many transparent solids are optically isotropic, meaning that the index of refraction is equal in all directions throughout the crystalline lattice. 
+
+| ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Polarization%20(Edward%20Salmon)/polarizingmicroscope.png) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Polarization%20(Edward%20Salmon)/polarizedvsunpolarizedlight.png) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Polarization%20(Edward%20Salmon)/planepolarizedlight.png) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Polarization%20(Edward%20Salmon)/phasecontrastvspolarizing.png) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Polarization%20(Edward%20Salmon)/birefringence.png) |
+| --- | --- |--- | --- | --- |
+
+
+Images by polarization microscopes:
+
+| ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Natural%20and%20Synthetic%20Polymers%20in%20Polarized%20Light.jpg) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Oolite%20Thin%20Section%20in%20Polarized%20Light.jpg) |
+| --- | --- |
