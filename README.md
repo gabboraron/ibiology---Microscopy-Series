@@ -9,6 +9,8 @@
 > - [lumenlearning.com - Physics](https://courses.lumenlearning.com/suny-physics/)
 > - [Ansys Education Resources](https://www.ansys.com/academic/educators/education-resources#q=optics&t=EducationResourcesTab&sort=relevancy&layout=card&numberOfResults=15)
 > - [MicroscopyU - the source for microscopy education | Nikon](https://www.microscopyu.com/microscopy-basics)
+> - [Miniaturized two-photon microscope: seeing clearer and deeper into the brain](https://www.nature.com/articles/lsa2017104)
+> - [Miniature Multiphoton Microscopes for Recording Neural Activity in Freely Moving Animals](https://link.springer.com/protocol/10.1007/978-1-0716-2764-8_7)
 >
 > **Contents:**
 > - [Historical Contributions from Light Microscopy: What Can You Learn with a Light Microscope? (Ron Vale, HHMI/UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series#historical-contributions-from-light-microscopy-what-can-you-learn-with-a-light-microscope-ron-vale-hhmiucsf)
@@ -23,7 +25,8 @@
 > - [Bonus: Fourier Space: Fourier Transform (Bo Huang, UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#bonus-fourier-space-fourier-transform-bo-huang-ucsf)
 > - [Darkfield and Phase Contrast Microscopy (Edward Salmon, University of North Carolina)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#darkfield-and-phase-contrast-microscopy-edward-salmon-university-of-north-carolina)
 > - [Polarized Light and its Interaction with Material (Shinya Inoue, Marine Biological Laboratory)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#polarized-light-and-its-interaction-with-material-shinya-inoue-marine-biological-laboratory)
-> - [Polarization Microscopy (Edward Salmon, University of North Carolina)()
+> - [Polarization Microscopy (Edward Salmon, University of North Carolina)]()
+> - [Differential Interference Contrast (DIC) Microscopy (Edward Salmon, University of North Carolina)]()
 >
 > ---------
 
@@ -535,4 +538,31 @@ Polarized light is a contrast-enhancing technique that improves the quality of t
 Images by polarization microscopes:
 
 | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Natural%20and%20Synthetic%20Polymers%20in%20Polarized%20Light.jpg) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Oolite%20Thin%20Section%20in%20Polarized%20Light.jpg) |
+| --- | --- |
+
+## Differential Interference Contrast (DIC) Microscopy (Edward Salmon, University of North Carolina)
+> [course site](https://www.ibiology.org/talks/differential-interference-contrast/) | [YouTube](https://youtu.be/FUa1GTc69y4?si=MoKqW7FQ5zzdnw4w) | [microscopyU - Differential Interference Contrast](https://www.microscopyu.com/techniques/dic) | [scientifica - A guide to Differential Interference Contrast (DIC)](https://www.scientifica.uk.com/learning-zone/differential-interference-contrast) |[microscopyU - Comparison of Phase Contrast & DIC Microscopy](https://www.microscopyu.com/tutorials/comparison-of-phase-contrast-and-dic-microscopy) | [DIC Microscope Configuration and Alignment](https://www.olympus-lifescience.com/en/microscope-resource/primer/techniques/dic/dicconfiguration/)
+>
+> Differential Interference Contrast (sometimes known as Normarski microscopy) is a variation of polarization microscopy which generates a high contrast “shadow” image of a specimen. The mechanism of the DIC (Wollaston) prisms is discussed along with how to generate optimal contrast.
+
+[Differential Interference Contrast (DIC)](https://www.scientifica.uk.com/learning-zone/differential-interference-contrast) is a microscopy technique that introduces contrast to images of specimens which have little or no contrast when viewed using brightfield microscopy. The images produced using DIC have a pseudo 3D-effect, making the technique ideal for electrophysiology experiments. Using DIC produces high resolution images with good contrast. It is best for visualising unstained samples. When viewing fluorescently labelled compounds, using DIC reduces the fluorescence intensity slightly and so decreases the quality of fluorescence images. However, this decrease is not significant. As an Infrared (IR) light source is usually used, DIC is ideal for imaging thick specimens such as brain slices, as IR light penetrates deeper into tissues than visible light, due to its longer wavelength. An advantage of using DIC over other contrast techniques, such as phase contrast or oblique contrast is that in DIC the full aperture of the microscope is used. For example, in phase contrast, the annulus of the condenser restricts the aperture, reducing the resolution of the image. Unlike phase contrast, DIC images are not disturbed by halo artefacts.
+
+| ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/DIC-light-path-1.png) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/scope-only-labelled_180222_141156.png) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/dicalignmentfigure1.jpg) |
+|---- | --- |--- |
+
+**How does Differential Interference Contrast work?**
+
+In DIC, light emitted from the source is linearly polarised by passing through a polariser. The linearly polarised beam of light enters an objective-specific prism, which splits it into two rays that vibrate perpendicular to each other. The rays are parallel as they pass through a condenser, but as they are vibrating perpendicular to each other, they are unable to cause interference.
+
+The split beams pass through the specimen. The specimen’s varying thickness and refractive indices alter the wave paths of the beams. They then enter the objective, where they are focussed above the rear focal plane. The two beams enter a second prism, in the nosepiece, which combines them. Because the beams passed through different parts of the specimen, they have different lengths.
+
+The analyser, which is a second polariser, brings the vibrations of the beams into the same plane and axis, causing destructive and constructive interference to occur between the two wavefronts. The light then travels to the eyepiece or camera, where a DIC image with differences in intensity and colour, can be seen. 
+
+The most fundamental distinction between differential interference contrast ([DIC](https://www.microscopyu.com/tutorials/comparison-of-phase-contrast-and-dic-microscopy)) and phase contrast microscopy is the optical basis upon which images are formed by the complementary techniques. Specimens examined by these contrast-enhancing methods produce images that are often quite different in appearance and character when objectively compared. This interactive tutorial explores many of the similarities and differences exhibited between images captured with phase contrast and DIC microscopy.
+
+| ![differences](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/differences.png) | ![feature1](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/feature1.png) | ![features2](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/features2.png) | ![features3](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/features3.png) |
+|---- | ---- | ---- | --- |
+| ![dicprism](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/dicprism.png) | ![dicmicstruct](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/dicmicstruct.png) | ![divergent](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/divergent.png) | ![intensity](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/intensity.png) |
+
+| ![intensitychanges](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/intensitychanges.png) | ![maxcontrast](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/maxcontrast.png) |
 | --- | --- |
