@@ -11,6 +11,7 @@
 > - [MicroscopyU - the source for microscopy education | Nikon](https://www.microscopyu.com/microscopy-basics)
 > - [Miniaturized two-photon microscope: seeing clearer and deeper into the brain](https://www.nature.com/articles/lsa2017104)
 > - [Miniature Multiphoton Microscopes for Recording Neural Activity in Freely Moving Animals](https://link.springer.com/protocol/10.1007/978-1-0716-2764-8_7)
+> - [ Bioimage Analysis - Christian Tischer (EMBL)](https://www.youtube.com/watch?v=0PP38Z0CNMI)
 >
 > **Contents:**
 > - [Historical Contributions from Light Microscopy: What Can You Learn with a Light Microscope? (Ron Vale, HHMI/UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series#historical-contributions-from-light-microscopy-what-can-you-learn-with-a-light-microscope-ron-vale-hhmiucsf)
@@ -25,8 +26,9 @@
 > - [Bonus: Fourier Space: Fourier Transform (Bo Huang, UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#bonus-fourier-space-fourier-transform-bo-huang-ucsf)
 > - [Darkfield and Phase Contrast Microscopy (Edward Salmon, University of North Carolina)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#darkfield-and-phase-contrast-microscopy-edward-salmon-university-of-north-carolina)
 > - [Polarized Light and its Interaction with Material (Shinya Inoue, Marine Biological Laboratory)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#polarized-light-and-its-interaction-with-material-shinya-inoue-marine-biological-laboratory)
-> - [Polarization Microscopy (Edward Salmon, University of North Carolina)]()
-> - [Differential Interference Contrast (DIC) Microscopy (Edward Salmon, University of North Carolina)]()
+> - [Polarization Microscopy (Edward Salmon, University of North Carolina)](https://github.com/gabboraron/ibiology---Microscopy-Series#polarization-microscopy-edward-salmon-university-of-north-carolina)
+> - [Differential Interference Contrast (DIC) Microscopy (Edward Salmon, University of North Carolina)](https://github.com/gabboraron/ibiology---Microscopy-Series#differential-interference-contrast-dic-microscopy-edward-salmon-university-of-north-carolina)
+> - [Bonus: Examples of Using Polarization Microscopy (Shinya Inoue, Marine Biological Laboratory)]()
 >
 > ---------
 
@@ -515,7 +517,7 @@ Usage in [Epi-flourescence mmicroscopy](https://www.thermofisher.com/ro/en/home/
 | --- | ---- | ---- | --- |
 
 ## Polarization Microscopy (Edward Salmon, University of North Carolina)
-> [Course site](https://www.ibiology.org/talks/polarization-microscopy/) | [YouTube](https://www.youtube.com/watch?v=Ph3AdDUG9vI) | [microscopyU - polarized light microscopy](https://www.microscopyu.com/techniques/polarized-light/polarized-light-microscopy) | [microscopyU -  Principles of Birefringence](https://www.microscopyu.com/techniques/polarized-light/principles-of-birefringence)
+> [Course site](https://www.ibiology.org/talks/polarization-microscopy/) | [YouTube](https://www.youtube.com/watch?v=Ph3AdDUG9vI) | [microscopyU - polarized light microscopy](https://www.microscopyu.com/techniques/polarized-light/polarized-light-microscopy) | [microscopyU -  Principles of Birefringence](https://www.microscopyu.com/techniques/polarized-light/principles-of-birefringence) | [Introduction to Biological Polarization Microscopy(Part 2)](https://micro.magnet.fsu.edu/primer/techniques/polarized/biologicalparttwo.html)
 >
 > Polarization microscopy probes the interaction of molecules with polarized light and is particularly good for examining well-order structures composed of polymers, such as the mitotic spindle. This lecture describes the components of a polarization microscope (e.g. polarizer, analyzer), birefringence and how it is exploited to generate images, adjusting a polarization microscope, examples of images, and new methods such the LC-Polscope.
 
@@ -541,7 +543,7 @@ Images by polarization microscopes:
 | --- | --- |
 
 ## Differential Interference Contrast (DIC) Microscopy (Edward Salmon, University of North Carolina)
-> [course site](https://www.ibiology.org/talks/differential-interference-contrast/) | [YouTube](https://youtu.be/FUa1GTc69y4?si=MoKqW7FQ5zzdnw4w) | [microscopyU - Differential Interference Contrast](https://www.microscopyu.com/techniques/dic) | [scientifica - A guide to Differential Interference Contrast (DIC)](https://www.scientifica.uk.com/learning-zone/differential-interference-contrast) |[microscopyU - Comparison of Phase Contrast & DIC Microscopy](https://www.microscopyu.com/tutorials/comparison-of-phase-contrast-and-dic-microscopy) | [DIC Microscope Configuration and Alignment](https://www.olympus-lifescience.com/en/microscope-resource/primer/techniques/dic/dicconfiguration/)
+> [course site](https://www.ibiology.org/talks/differential-interference-contrast/) | [YouTube](https://youtu.be/FUa1GTc69y4?si=MoKqW7FQ5zzdnw4w) | [microscopyU - Differential Interference Contrast](https://www.microscopyu.com/techniques/dic) | [scientifica - A guide to Differential Interference Contrast (DIC)](https://www.scientifica.uk.com/learning-zone/differential-interference-contrast) |[microscopyU - Comparison of Phase Contrast & DIC Microscopy](https://www.microscopyu.com/tutorials/comparison-of-phase-contrast-and-dic-microscopy) | [DIC Microscope Configuration and Alignment](https://www.olympus-lifescience.com/en/microscope-resource/primer/techniques/dic/dicconfiguration/) | [DIC Microscopy Literature References](https://www.microscopyu.com/references/dic)
 >
 > Differential Interference Contrast (sometimes known as Normarski microscopy) is a variation of polarization microscopy which generates a high contrast “shadow” image of a specimen. The mechanism of the DIC (Wollaston) prisms is discussed along with how to generate optimal contrast.
 
@@ -565,4 +567,25 @@ The most fundamental distinction between differential interference contrast ([DI
 | ![dicprism](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/dicprism.png) | ![dicmicstruct](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/dicmicstruct.png) | ![divergent](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/divergent.png) | ![intensity](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/intensity.png) |
 
 | ![intensitychanges](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/intensitychanges.png) | ![maxcontrast](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Differential%20Interference%20Contrast%20(DIC)%20Microscopy%20(Edward%20Salmon)/maxcontrast.png) |
+
 | --- | --- |
+
+## Bonus: Examples of Using Polarization Microscopy (Shinya Inoue, Marine Biological Laboratory)
+> [course link](https://www.ibiology.org/talks/examples-of-using-polarization-microscopy/) | [YouTube](https://www.youtube.com/watch?v=VEl0-VRg_ow)
+>
+> Shinya describes examples of using polarization microscopy to image living biological organisms, including watching processes of mitosis.
+
+| ![polarization_rectifier](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Examples%20of%20Using%20Polarization%20Microscopy%20(Shinya%20Inoue)/polarization_rectifier.png) |![compensator](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Examples%20of%20Using%20Polarization%20Microscopy%20(Shinya%20Inoue)/compensator.png) | ![spermstructure](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Examples%20of%20Using%20Polarization%20Microscopy%20(Shinya%20Inoue)/spermstructure.png) |   
+| --- | --- |--- | 
+
+## Bonus: Pragmatics of DIC and Video-Enhanced Contrast Microscopy (Edward Salmon, University of North Carolina)
+> [course site](https://www.ibiology.org/talks/video-enhanced-contrast-microscopy/) | [YouTube](https://www.youtube.com/watch?v=mdY__N7GGgY) | [Biocyclopedia - Video Enhanced Contrast Microscopy](https://biocyclopedia.com/index/cell_biology_methods/video_enhanced_contrast_microscopy.php) | [Dieter G Weiss - Video-Enhanced Contrast Microscopy - Chapter 6](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/dieter_g_weiss_2006-VCM.pdf)
+>
+> In this lecture titled “Pragmatics of DIC and Video-Enhanced Contrast Microscopy,” Ted Salmon extends the beginning DIC lecture by discussing how to align the DIC microscope, how color DIC is produced, how to use video-enhancement to visualize faint objects such as microtubules and how to combine DIC with fluorescence.
+
+| ![missmatchedprism]() | ![poorcondenser]() | ![matched]() | ![colordic]() | ![highres]() | ![highres2]() | ![timeres]() | ![microtube]() |
+| --- | ---- |--- | --- |--- |--- | --- |--- |
+
+| ![dicfluorescencemultimodemic]() | ![multimodedicimage]() |
+| --- | --- |
+
