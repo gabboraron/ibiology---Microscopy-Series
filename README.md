@@ -47,26 +47,10 @@ Green Fluorescence Protein is not compatible with the live cell imaging but is a
 ## History of Early Microscopes (Joseph Gall, Carnegie Institution)
 > [link](https://www.ibiology.org/talks/early-microscopes) | [YouTube](https://www.youtube.com/watch?v=U73iwy3YqCA)
 
-- Late 1600s:
-
-  [Hooke's Microscope](https://micro.magnet.fsu.edu/primer/museum/hooke.html)
-  
-  ![Hook's microscope](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/hooke.jpg)
-
-  Hook's ["Micrographia" book](https://www.gutenberg.org/ebooks/15491) is a set of 38 plates
-- 1760:
-  - more compaund microscopes;
-  - [Screw-Barell microscope](https://www.microscopehistory.com/screw-barrel-1)
-
-  ![Screw-Barell microscope](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Screw-Barellmic.png)
-
-- 1820
-  - [Brown's single lens microscope](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/Ford-B_Hidden-Realities-Brown-Micro_Pulse-iss-40-Dec-2018.pdf) and [discovery](https://physerver.hamilton.edu/research/brownian/Jigglyread.html)
- 
-  ![Brown's microscope](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Brownmiclinn.png)
-  
-- 1838 cell theory
-  [Abbe’s Theory](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/Mart%C3%ADn_Albaladejo_C_Abbes-Theory.pdf)
+| Late 1600s  - [Hooke's Microscope](https://micro.magnet.fsu.edu/primer/museum/hooke.html)| 1760 - [Screw-Barell microscope](https://www.microscopehistory.com/screw-barrel-1) | 1820 - [Brown's single lens microscope](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/Ford-B_Hidden-Realities-Brown-Micro_Pulse-iss-40-Dec-2018.pdf) and [discovery](https://physerver.hamilton.edu/research/brownian/Jigglyread.html) | 1838 - cell theory | 
+| --------- | --------- | --------- | --------- | 
+| ![Hook's microscope](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/hooke.jpg) | ![Screw-Barell microscope](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Screw-Barellmic.png) | ![Brown's microscope](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Brownmiclinn.png) | ![abbesthory](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/abbestheory.jpg) |
+| Hook's ["Micrographia" book](https://www.gutenberg.org/ebooks/15491) is a set of 38 plates | more compaund microscopes arrives | | [Abbe’s Theory](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/Mart%C3%ADn_Albaladejo_C_Abbes-Theory.pdf) of image formation: A diffraction pattern is formed at the rear focal plane of the objective lens. The fine details of the image are observed when the diffracted rays from the specimen are recombined in the image. [*more*](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/pioneers_in_optics_ernst_abbe_18401905.pdf) | 
 
 ## Refractive Lenses and Image Formation (Daniel Fletcher, UC Berkeley)
 > [lecture link](https://www.ibiology.org/talks/refractive-lenses/) | [YouTube](https://www.youtube.com/watch?v=vlxMSz7XRys&t=100s) | [questions](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/exercises/Refractive%20Lenses%20and%20Image%20Formation.jpg)
@@ -96,7 +80,7 @@ The angle of incidence is equal with the reflection.
 |--|--|
 
 
-**Refraction is the bending of light (it also happens with sound, water and other waves) as it passes from one transparent substance into another. [Law of refrection](https://www.britannica.com/science/refraction): $n_isin(\phi_i) = n_rsin(\phi_t)$** In this [equation](https://farside.ph.utexas.edu/teaching/316/lectures/node128.html) $\phi_1$ is the angle subtended between the incident ray and the normal to the interface, and $\phi_2$ is the angle subtended between the refracted ray and the normal to the interface. The quantities $n_1$ and $n_2$ are termed the refractive indices of media 1 and 2, respectively. Thus, the law of refraction predicts that a light-ray always deviates more towards the normal in the optically denser medium: i.e., the medium with the higher refractive index. By definition, the refractive index $n$ of a dielectric medium of dielectric constant $K$ is given by $n=\sqrt{K}$. [Table](https://farside.ph.utexas.edu/teaching/316/lectures/node128.html#t12.1) below shows the refractive indices of some common materials (for yellow light of wavelength $\lambda =589$nm).
+**Refraction is the bending of light (it also happens with sound, water and other waves) as it passes from one transparent substance into another. [Law of refrection](https://www.britannica.com/science/refraction): $n_isin(\phi_i) = n_rsin(\phi_t)$** In this [equation](https://farside.ph.utexas.edu/teaching/316/lectures/node128.html) $\phi_1$ is the angle subtended between the incident ray and the normal to the interface, and $\phi_2$ is the angle subtended between the refracted ray and the normal to the interface. The quantities $n_1$ and $n_2$ are termed the refractive indices of media 1 and 2, respectively. Thus, the law of refraction predicts that a light-ray always deviates more towards the normal in the optically denser medium: i.e., the medium with the higher refractive index. By definition, the refractive index $n$ of a dielectric medium of dielectric constant $K$ is given by $n=\sqrt{K}$. [Table](https://farside.ph.utexas.edu/teaching/316/lectures/node128.html#t12.1) below shows the refractive indices of some common materials (for yellow light of wavelength $\lambda =589$ nm).
 
 | material | $n$ |
 | --- | --- |
