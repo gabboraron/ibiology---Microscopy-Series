@@ -28,7 +28,8 @@
 > - [Polarized Light and its Interaction with Material (Shinya Inoue, Marine Biological Laboratory)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#polarized-light-and-its-interaction-with-material-shinya-inoue-marine-biological-laboratory)
 > - [Polarization Microscopy (Edward Salmon, University of North Carolina)](https://github.com/gabboraron/ibiology---Microscopy-Series#polarization-microscopy-edward-salmon-university-of-north-carolina)
 > - [Differential Interference Contrast (DIC) Microscopy (Edward Salmon, University of North Carolina)](https://github.com/gabboraron/ibiology---Microscopy-Series#differential-interference-contrast-dic-microscopy-edward-salmon-university-of-north-carolina)
-> - [Bonus: Examples of Using Polarization Microscopy (Shinya Inoue, Marine Biological Laboratory)]()
+> - [Bonus: Examples of Using Polarization Microscopy (Shinya Inoue, Marine Biological Laboratory)](https://github.com/gabboraron/ibiology---Microscopy-Series#differential-interference-contrast-dic-microscopy-edward-salmon-university-of-north-carolina)
+> - [Introduction to Fluorescence Microscopy (Nico Stuurman, UCSF/HHMI)]()
 >
 > ---------
 
@@ -574,3 +575,29 @@ The most fundamental distinction between differential interference contrast ([DI
 | ![dicfluorescencemultimodemic](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Pragmatics%20of%20DIC%20and%20Video-Enhanced%20Contrast%20Microscopy%20(Edward%20Salmon)/dicfluorescencemultimodemic.png) | ![multimodedicimage](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Pragmatics%20of%20DIC%20and%20Video-Enhanced%20Contrast%20Microscopy%20(Edward%20Salmon)/multimodedicimage.png) |
 | --- | --- |
 
+## Introduction to Fluorescence Microscopy (Nico Stuurman, UCSF/HHMI)
+> [course site](https://www.ibiology.org/talks/fluorescence-microscopy/) | [YouTube](https://youtu.be/AhzhOzgYoqw?si=G_aCJtExYv7dYvaY) | [MicroscopyU - Introduction to Fluorescence Microscopy](https://www.microscopyu.com/techniques/fluorescence/introduction-to-fluorescence-microscopy) | [M. J. Sanderson, I. Smith, I. Parker, M. D. Bootman - Fluorescence Microscopy,  doi: 10.1101/pdb.top071795](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4711767/) | [George Rice - Fluorescent Microscopy](https://serc.carleton.edu/microbelife/research_methods/microscopy/fluromic.html) | [Wikipedia](https://en.wikipedia.org/wiki/Fluorescence_microscope) | [What is the Stokes Shift?](https://www.edinst.com/blog/what-is-the-stokes-shift/)
+>
+> Fluorescence is a process in which matter absorbs light and re-emits at a different wavelength. Fluorescence is widely used in biological microscopy. This lecture describes the principles of fluorescence and fluorescence microscopy.
+
+Fluorescence is when we light something with a light what has shorter wavelenght and the outcome is a longer wavelength with lower energy. The absorption and subsequent re-radiation of light by organic and inorganic specimens is typically the result of well-established physical phenomena described as being either fluorescence or phosphorescence. The emission of light through the fluorescence process is nearly simultaneous with the absorption of the excitation light due to a relatively short time delay between photon absorption and emission, ranging usually less than a microsecond in duration. When emission persists longer after the excitation light has been extinguished, the phenomenon is referred to as phosphorescence. Here we can see the [Stokes Shift](https://www.edinst.com/blog/what-is-the-stokes-shift/) which is the spectral shift to lower energy between the incident light and the scattered or emitted light after interaction with a sample.
+
+> In fluorescence spectroscopy, the Stokes shift is the difference between the spectral position of the maximum of the first absorption band and the maximum of the fluorescence emission and can be expressed in either wavelength or wavenumber units as shown in Figure.
+>
+> *It should be noted that the wavenumber Stokes shift expression written above is actually only an approximation since it assumes that the wavenumber maxima are at the same position as the wavelength maxima which is not strictly true.*
+>
+> The origin of the Stokes shift is commonly represented in a [Perrin-Jablonski diagram](https://www.edinst.com/blog/jablonski-diagram/) as an initial excitation to a higher vibrational level of the $S_1$ followed by a rapid non-radiative decay to the vibrational ground state of the $S_1$ *(4th Figure)*, which means that **the fluorescence will have a lower energy than the absorbed photon and therefore a longer wavelength**.
+>
+> In the quantum mechanical picture of the Franck-Condon principle, the difference in mass between the nuclei and the electrons allows the wavefunction of the molecular state to be separated into an electronic component and a nuclear (vibrational) component (Born-Oppenheimer Approximation). The transition probability between each vibrational level of the $S_0$ and $S_1$ is then proportional to the overlap integral between their vibrational wavefunctions.
+>
+> Combining these two descriptions a hybrid classical-quantum picture of the concept can be drawn on *5th Figure*.
+
+| ![fluorescenceemissionlight.png]() | ![fluorescencespectrum]() | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Stokes-shift-2-768x630.png) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/stokes-shift-4-768x922.png) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/HarmonicOscillator-614x1024.png) |
+| ---- | --- | --- | --- | --- |
+
+> The fluorescence emission that results from the light flux discussed above depends on the absorption and emission characteristics of the fluorophore, its concentration in the specimen, and the optical path length of the specimen. In mathematical terms, the fluorescence produced $F$ is given by the equation: $$F = \sigma \times Q \times I$$ where $\sigma$ is the molecular absorption cross-section, $Q$ is the quantum yield, and $I$ is the incident light flux (as calculated above). Assuming that fluorescein is the fluorophore, the absorption cross-section ($\sigma$) is $3 \times 10 \times E(-16)$ square centimeters per molecule, $Q$ equals $0.99$, resulting in a value for $F$ of 100,000 photons per second per molecule.
+
+In the microscopy we use filters to filter the exciting light, to get only the wavelength what excite the dye *(pigment)* and then the fluerscence light come back from the same objective to the eye.
+
+| ![jablonski]() | ![microscopestructure]() | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Screenshot%20Introduction%20to%20Fluorescence%20Microscopy-microscope.png) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Screenshot%20Introduction%20to%20Fluorescence%20Microscopy-filter.png) |
+| ---- | --- | ---- | --- |
