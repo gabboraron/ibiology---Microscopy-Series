@@ -626,5 +626,5 @@ In the microscopy we use filters to filter the exciting light, to get only the w
 
 | ![gfp](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Fluorescent%20Proteins%20and%20the%20Story%20Behind%20GFP%20(Roger%20Tsien%2C%20UCSDHHMI)/gfp.png) | ![mutationsofgfp](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Fluorescent%20Proteins%20and%20the%20Story%20Behind%20GFP%20(Roger%20Tsien%2C%20UCSDHHMI)/mutationsofgfp.png) |
 | --- | --- |
-| The fluorescence appears because of Oxigen, but creates $H_2O_2$ | The original jellyfish is `WT` |
+| The fluorescence appears because of Oxigen, but creates $H_2O_2$ | The original jellyfish ଳ is `WT` |
 
