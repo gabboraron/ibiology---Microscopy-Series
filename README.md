@@ -30,7 +30,8 @@
 > - [Differential Interference Contrast (DIC) Microscopy (Edward Salmon, University of North Carolina)](https://github.com/gabboraron/ibiology---Microscopy-Series#differential-interference-contrast-dic-microscopy-edward-salmon-university-of-north-carolina)
 > - [Bonus: Examples of Using Polarization Microscopy (Shinya Inoue, Marine Biological Laboratory)](https://github.com/gabboraron/ibiology---Microscopy-Series#differential-interference-contrast-dic-microscopy-edward-salmon-university-of-north-carolina)
 > - [Introduction to Fluorescence Microscopy (Nico Stuurman, UCSF/HHMI)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#introduction-to-fluorescence-microscopy-nico-stuurman-ucsfhhmi)
-> - [Fluorescent Probes: Organic Dyes and Quantum Dots (Timothy Mitchison, Harvard University)]()
+> - [Fluorescent Probes: Organic Dyes and Quantum Dots (Timothy Mitchison, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#fluorescent-probes-organic-dyes-and-quantum-dots-timothy-mitchison-harvard-university)
+> - [Fluorescent Proteins and the Story Behind GFP (Roger Tsien, UCSD/HHMI)]()
 >
 > ---------
 
@@ -617,6 +618,12 @@ In the microscopy we use filters to filter the exciting light, to get only the w
 | ![qdotemission](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fluorescent%20Probes%20(Timothy%20Mitchison)/qdotemission.png) | ![photostability](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fluorescent%20Probes%20(Timothy%20Mitchison)/photostability.png) | ![photodamage](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fluorescent%20Probes%20(Timothy%20Mitchison)/photodamage.png) | ![imprpobes](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fluorescent%20Probes%20(Timothy%20Mitchison)/imprpobes.png) |
 | ![phform](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fluorescent%20Probes%20(Timothy%20Mitchison)/phform.png) | ![thiolreactive](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fluorescent%20Probes%20(Timothy%20Mitchison)/thiolreactive.png) | ![unproton](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fluorescent%20Probes%20(Timothy%20Mitchison)/unproton.png) | ![snap](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fluorescent%20Probes%20(Timothy%20Mitchison)/snap.png) |
 | ![snaptag](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fluorescent%20Probes%20(Timothy%20Mitchison)/snaptag.png) | ![flash](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fluorescent%20Probes%20(Timothy%20Mitchison)/flash.png) | ![rohadamile](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fluorescent%20Probes%20(Timothy%20Mitchison)/rohadamile.png) | ![mitotracker](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Fluorescent%20Probes%20(Timothy%20Mitchison)/mitotracker.png) |
+
+## Fluorescent Proteins and the Story Behind GFP (Roger Tsien, UCSD/HHMI)
+> [course site](https://www.ibiology.org/talks/fluorescent-proteins/) | [YouTube](https://www.youtube.com/watch?v=qK9aYnkIr3w)
+>
+> Live cell imaging has been revolutionized by the discovery of the green fluorescent protein (GFP). Roger Tsien talks about fluorescent proteins and covers the history of GFP, how it folds and becomes fluorescent, how it has been mutated to produce additional colors (blue, cyan, yellow). It also covers novel photoswitchable and photoactivatible fluorescent proteins, whose color can be changed by light, and new infrared fluorescent proteins.
+
 
 
 
