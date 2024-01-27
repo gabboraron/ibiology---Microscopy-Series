@@ -31,7 +31,7 @@
 > - [Bonus: Examples of Using Polarization Microscopy (Shinya Inoue, Marine Biological Laboratory)](https://github.com/gabboraron/ibiology---Microscopy-Series#differential-interference-contrast-dic-microscopy-edward-salmon-university-of-north-carolina)
 > - [Introduction to Fluorescence Microscopy (Nico Stuurman, UCSF/HHMI)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#introduction-to-fluorescence-microscopy-nico-stuurman-ucsfhhmi)
 > - [Fluorescent Probes: Organic Dyes and Quantum Dots (Timothy Mitchison, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#fluorescent-probes-organic-dyes-and-quantum-dots-timothy-mitchison-harvard-university)
-> - [Fluorescent Proteins and the Story Behind GFP (Roger Tsien, UCSD/HHMI)]()
+> - [Fluorescent Proteins and the Story Behind GFP (Roger Tsien, UCSD/HHMI)](https://github.com/gabboraron/ibiology---Microscopy-Series#fluorescent-proteins-and-the-story-behind-gfp-roger-tsien-ucsdhhmi)
 >
 > ---------
 
@@ -624,6 +624,7 @@ In the microscopy we use filters to filter the exciting light, to get only the w
 >
 > Live cell imaging has been revolutionized by the discovery of the green fluorescent protein (GFP). Roger Tsien talks about fluorescent proteins and covers the history of GFP, how it folds and becomes fluorescent, how it has been mutated to produce additional colors (blue, cyan, yellow). It also covers novel photoswitchable and photoactivatible fluorescent proteins, whose color can be changed by light, and new infrared fluorescent proteins.
 
-
-
+| ![gfp](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Fluorescent%20Proteins%20and%20the%20Story%20Behind%20GFP%20(Roger%20Tsien%2C%20UCSDHHMI)/gfp.png) | ![mutationsofgfp](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Fluorescent%20Proteins%20and%20the%20Story%20Behind%20GFP%20(Roger%20Tsien%2C%20UCSDHHMI)/mutationsofgfp.png) |
+| --- | --- |
+| The fluorescence appears because of Oxigen, but creates $H_2O_2$ | The original jellyfish is `WT` |
 
