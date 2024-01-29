@@ -32,6 +32,7 @@
 > - [Introduction to Fluorescence Microscopy (Nico Stuurman, UCSF/HHMI)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#introduction-to-fluorescence-microscopy-nico-stuurman-ucsfhhmi)
 > - [Fluorescent Probes: Organic Dyes and Quantum Dots (Timothy Mitchison, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#fluorescent-probes-organic-dyes-and-quantum-dots-timothy-mitchison-harvard-university)
 > - [Fluorescent Proteins and the Story Behind GFP (Roger Tsien, UCSD/HHMI)](https://github.com/gabboraron/ibiology---Microscopy-Series#fluorescent-proteins-and-the-story-behind-gfp-roger-tsien-ucsdhhmi)
+> - [Optical Sectioning and Confocal Microscopy (Kurt Thorn, UCSF)]()
 >
 > ---------
 
@@ -677,3 +678,25 @@ As we can see the main problem with the [DsRED](https://www.fpbase.org/protein/d
 
 | ![whataregood1](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Fluorescent%20Protein%20Indicators%20(Roger%20Tsien%2C%20UCSDHHMI)/whataregood1.png) | ![whataregood2](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Fluorescent%20Protein%20Indicators%20(Roger%20Tsien%2C%20UCSDHHMI)/whataregood2.png) | ![whataregood3](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Fluorescent%20Protein%20Indicators%20(Roger%20Tsien%2C%20UCSDHHMI)/whataregood3.png) |
 | -------------- |-------------- | --------------- |
+
+
+## Optical Sectioning and Confocal Microscopy (Kurt Thorn, UCSF)
+> [course site](https://www.ibiology.org/talks/confocal-microscopy/) | [YouTube](https://www.youtube.com/watch?v=1Q5V442V7xI) | [zeiss campus - Optical Sectioning Microscopy](https://zeiss-campus.magnet.fsu.edu/articles/opticalsectioning/index.html) | [Jeremy Sanderson - Optical Sectioning and Confocal Microscopy](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/Optical%20Sectioning%20and%20Confocal%20Microscopy.pdf) | [Olympus - Photomultiplier Tubes](https://www.olympus-lifescience.com/en/microscope-resource/primer/digitalimaging/concepts/photomultipliers/)
+>
+> This talk introduces confocal microscopy, and discusses optical sectioning, reconstruction of 3D images, and how the laser-scanning confocal microscope and spinning disk confocal microscope work.
+
+| ![slices](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/slices.png) | ![conventionalproblem](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/conventionalproblem.png) | ![confocalproblem](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/confocalproblem.png) | ![fluorescenceproblem](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/fluorescenceproblem.png) |
+| --- |---- | ---- | ---- |
+
+| ![confocalsolution](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/confocalsolution.png) | ![imageraster](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/imageraster.png) |
+| ------- | ---- |
+
+| ![lightsource1](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/lightsource1.png) | ![scanning](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/scanning.png) | ![confocalopticalpath](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/confocalopticalpath.png) | ![photomultipliertube](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/photomultipliertube.png) |
+| ------- | ----------- | ------------ | ----------- |
+| ![confocaldrawback](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/confocaldrawback.png) | ![spinningdiskconfocal](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/spinningdiskconfocal.png) | ![pinholesimage](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/pinholesimage.png) | ![outoffocusrejection](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/outoffocusrejection.png) |
+
+| ![whentouse1](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/whentouse1.png) | ![whentouse2](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectioning%20and%20Confocal%20Microscopy%20(Kurt%20Thorn)/whentouse2.png) |
+| -------------- |---------- |
+
+
+
