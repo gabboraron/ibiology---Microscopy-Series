@@ -32,8 +32,8 @@
 > - [Introduction to Fluorescence Microscopy (Nico Stuurman, UCSF/HHMI)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#introduction-to-fluorescence-microscopy-nico-stuurman-ucsfhhmi)
 > - [Fluorescent Probes: Organic Dyes and Quantum Dots (Timothy Mitchison, Harvard University)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main#fluorescent-probes-organic-dyes-and-quantum-dots-timothy-mitchison-harvard-university)
 > - [Fluorescent Proteins and the Story Behind GFP (Roger Tsien, UCSD/HHMI)](https://github.com/gabboraron/ibiology---Microscopy-Series#fluorescent-proteins-and-the-story-behind-gfp-roger-tsien-ucsdhhmi)
-> - [Optical Sectioning and Confocal Microscopy (Kurt Thorn, UCSF)]()
-> - [Two Photon Microscopy (Kurt Thorn, UCSF)]()
+> - [Optical Sectioning and Confocal Microscopy (Kurt Thorn, UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main?tab=readme-ov-file#optical-sectioning-and-confocal-microscopy-kurt-thorn-ucsf)
+> - [Two Photon Microscopy (Kurt Thorn, UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main?tab=readme-ov-file#two-photon-microscopy-kurt-thorn-ucsf)
 >
 > ---------
 
@@ -702,7 +702,7 @@ Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Optical%20Sectio
 | -------------- |---------- |
 
 ## Two Photon Microscopy (Kurt Thorn, UCSF)
-> [course site](https://www.ibiology.org/talks/two-photon-microscopy/) | [YouTube](https://www.youtube.com/watch?v=CZifB2aQDDM) | [Two-Photon Microscopy](https://www.sciencedirect.com/topics/medicine-and-dentistry/two-photon-microscopy) | [ Cambridge Advanced Imaging Centre - Two-photon imaging](https://caic.bio.cam.ac.uk/microscopes/two-photon/two-photon-imaging) | [MicroscopyU -  Multiphoton Microscopy](https:/www.microscopyu.com/techniques/multi-photon/multiphoton-microscopy)
+> [course site](https://www.ibiology.org/talks/two-photon-microscopy/) | [YouTube](https://www.youtube.com/watch?v=CZifB2aQDDM) | [Two-Photon Microscopy](https://www.sciencedirect.com/topics/medicine-and-dentistry/two-photon-microscopy) | [ Cambridge Advanced Imaging Centre - Two-photon imaging](https://caic.bio.cam.ac.uk/microscopes/two-photon/two-photon-imaging) | [MicroscopyU -  Multiphoton Microscopy](https:/www.microscopyu.com/techniques/multi-photon/multiphoton-microscopy) | [Helmchen, F., Denk, W. Deep tissue two-photon microscopy. Nat Methods 2, 932–940 (2005). https://doi.org/10.1038/nmeth818](https://www.nature.com/articles/nmeth818) [*Sci-Hub link*](https://sci-hub.se/https://doi.org/10.1038/nmeth818) | [Larson, A. Multiphoton microscopy. Nature Photon 5, 1 (2011). https://doi.org/10.1038/nphoton.an.2010.2](https://www.nature.com/articles/nphoton.an.2010.2) | [Two Photon microscope](https://www.youtube.com/watch?v=shl00D7bgZg)
 >
 > This talk introduces two-photon microscopy which uses intense pulsed lasers to image deep into biological samples. It can be used for imaging thick tissue specimens or even imaging inside of live animals.
 
