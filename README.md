@@ -814,7 +814,7 @@ Apart from that, there is a massive time benefit to be gained by this approach. 
 > > - $\lambda$ is the lasing wavelength
 >
 > However, this irradiance profile does not stay constant as the beam propagates through space, hence the dependence of $\omega(z)$ on $z$. Due to diffraction, a Gaussian beam will converge and diverge from an area called the beam waist ( $\omega_0$ ), which is where the beam diameter reaches a minimum value.
-> | The beam converges and diverges equally on both sides of the beam waist by the divergence angle $phi$ (Figure right). The beam waist and divergence angle are both measured from the axis and their relationship can be seen in equations. | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/gaussian-beam-propagation-fig-2v2.webp)   <br> *Gaussian beams are defined by their beam waist (* $\omega_0 *), Rayleigh range (* $z_R$ *), and divergence angle (* $\phi$ *)* |
+> | The beam converges and diverges equally on both sides of the beam waist by the divergence angle $phi$ (Figure right). The beam waist and divergence angle are both measured from the axis and their relationship can be seen in equations. | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/gaussian-beam-propagation-fig-2v2.webp)   <br> *Gaussian beams are defined by their beam waist (* $\omega_0$ *), Rayleigh range (* $z_R$ *), and divergence angle (* $\phi$ *)* |
 > | --- | --- |
 >
 >  $$\omega_0 = \frac{\lambda}{\pi \phi} \Rightarrow \phi = \frac{\lambda}{\pi \omega_0}$$
