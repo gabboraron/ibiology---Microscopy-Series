@@ -793,7 +793,40 @@ Apart from that, there is a massive time benefit to be gained by this approach. 
 
 ### Light Sheet Optics
 > #### Gaussian Beams
->  The definition of Gaussian beams concerns both the intensity and phase profile, as explained in the following.
+> In many laser optics applications, the laser beam is assumed to be [Gaussian with an irradiance profile](https://www.edmundoptics.com/knowledge-center/application-notes/lasers/gaussian-beam-propagation/) that follows an ideal Gaussian distribution. All actual laser beams will have some deviation from ideal Gaussian behavior. The $M^2$ factor, also known as the [beam quality factor](https://www.edmundoptics.com/knowledge-center/application-notes/lasers/beam-quality-and-strehl-ratio/), compares the performance of a real laser beam with that of a diffraction-limited Gaussian beam. Gaussian irradiance profiles are symmetric around the center of the beam and decrease as the distance from the center of the beam perpendicular to the direction of propagation increases. This distribution is described by Equation:
+>
+> | $$I(r) = I_0exp( \frac{-2r^2}{\omega (z)^2}) = \frac{2P}{\pi \omega (z)^2} exp( \frac{-2r^2}{\omega (z)^2})$$ | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/gaussian-beam-propagation-fig-1.webp)  <br> *The waist of a Gaussian beam is defined as the location where the irradiance $1/e^2(13.5%)$ of its maximum value* |
+> | ---- | --- |
+>
+> **Where**
+> - $I_0$  is the peak irradiance at the center of the beam
+> - $r$ is the radial distance away from the axis
+> - $\omega (z)$ is the radius of the laser beam where the irradiance is $1/e^2(13.5%)$ of $I_0$
+> - $z$ is the distance propagated from the plane where the wavefront is flat
+> - $P$ is the total power of the beam
+>
+> > #### $M^2$ *(Beam Quality and Strehl Ratio)*
+> > *Once the laser’s performance is known, defining the true performance of any optical system used with it will allow for an understanding of the final system performance. Comparing the real performance of an optical system to its ideal, [diffraction-limited](https://www.edmundoptics.com/knowledge-center/application-notes/imaging/limitations-on-resolution-and-contrast-the-airy-disk/) performance is done by using the Strehl ratio.*
+> > $$M^2 = \frac{\pi \omega_0 \phi}{\lambda}$$
+> > **Where**
+> > - $\omega_0$ is the beam waist
+> > - $phi$  is the divergence angle of the laser
+> > - $\lambda$ is the lasing wavelength
+>
+> However, this irradiance profile does not stay constant as the beam propagates through space, hence the dependence of $\omega(z)$ on $z$. Due to diffraction, a Gaussian beam will converge and diverge from an area called the beam waist ( $\omega_0$ ), which is where the beam diameter reaches a minimum value.
+> | The beam converges and diverges equally on both sides of the beam waist by the divergence angle $phi$ (Figure right). The beam waist and divergence angle are both measured from the axis and their relationship can be seen in equations. | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/gaussian-beam-propagation-fig-2v2.webp)   <br> *Gaussian beams are defined by their beam waist (* $\omega_0 *), Rayleigh range (* $z_R$ *), and divergence angle (* $\phi$ *)* |
+> | --- | --- |
+>
+>  $$\omega_0 = \frac{\lambda}{\pi \phi} \Rightarrow \phi = \frac{\lambda}{\pi \omega_0}$$
+> **Where:**
+> - $\lambda$ is the wavelength of the laser
+> - $\phi$ is a far field approximation
+>
+> Because of this, $\phi$ does not accurately represent the divergence of the beam near the beam waist, but it becomes more accurate as the distance away from the beam waist increases. Also as seen in the equation above, a small beam waist results in a larger divergence angle, while a large beam waist results in a smaller divergence angle (or a more collimated beam). This explains why laser beam expanders can reduce beam divergence by increasing beam diameter.
+> 
+> 
+> The definition of Gaussian beams concerns both the intensity and phase profile, as explained in the following.
+> 
 
 
 The drawback of investing more light (or using short-wavelength with higher energy) is that, particularly when looking at living organisms, large amounts of phototoxic side products are created which degrade and eventually kill the organism. This makes it hard to say whether the observation is taking place at a healthy time point or at a decaying state.
