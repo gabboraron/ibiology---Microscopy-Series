@@ -752,7 +752,7 @@ The laser power required to excite a fluorophore-containing specimen has an opti
 ![whentouse](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Microscopy%20Two%20Photon%20Microscopy%20(Kurt%20Thorn)/whentouse.png)
 
 ## Light Sheet Sectioning (Ernst Stelzer, European Molecular Biology Laboratory)
-> [Original article](https://www.ibiology.org/talks/light-sheet-sectioning/) | [YouTube](https://www.youtube.com/watch?v=lteywF6wKu8) | [MicroscopyU - Light Sheet Fluorescence Microscopy](https://www.microscopyu.com/techniques/light-sheet/light-sheet-fluorescence-microscopy) | [Wikipedia - Light sheet fluorescence microscopy](https://en.wikipedia.org/wiki/Light_sheet_fluorescence_microscopy) | [Maura F., Cory B., Jaclyn W. - Light Sheet Microscopy](https://www.edmundoptics.com/knowledge-center/application-notes/microscopy/light-sheet-fluorescence-microscopy/) | [Omar E. O., Jordi A., Emilio J. G., Pablo L. - Light-sheet microscopy: a tutorial](https://opg.optica.org/aop/fulltext.cfm?uri=aop-10-1-111&id=381035) | [Teledyne - Introduction To Light Sheet Microscopy](https://www.photometrics.com/learn/light-sheet-microscopy/introduction-to-light-sheet-microscopy) | [Your Next Confocal Should Be a Light-Sheet Microscope](https://www.bruker.com/en/products-and-solutions/fluorescence-microscopy/light-sheet-microscopes/why-choose-a-light-sheet-microscope.html) | [Photometrics - Light Sheet Microscopy](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/Light-Sheet-Microscopy-App-Note.pdf); [*original file*](https://www.photometrics.com/wp-content/uploads/2019/10/Light-Sheet-Microscopy-App-Note.pdf) | [Rüdiger P. - Gaussian Beams, https://doi.org/10.61835/mla](https://www.rp-photonics.com/gaussian_beams.html)
+> [Original article](https://www.ibiology.org/talks/light-sheet-sectioning/) | [YouTube](https://www.youtube.com/watch?v=lteywF6wKu8) | [MicroscopyU - Light Sheet Fluorescence Microscopy](https://www.microscopyu.com/techniques/light-sheet/light-sheet-fluorescence-microscopy) | [Wikipedia - Light sheet fluorescence microscopy](https://en.wikipedia.org/wiki/Light_sheet_fluorescence_microscopy) | [Maura F., Cory B., Jaclyn W. - Light Sheet Microscopy](https://www.edmundoptics.com/knowledge-center/application-notes/microscopy/light-sheet-fluorescence-microscopy/) | [Omar E. O., Jordi A., Emilio J. G., Pablo L. - Light-sheet microscopy: a tutorial](https://opg.optica.org/aop/fulltext.cfm?uri=aop-10-1-111&id=381035) | [Teledyne - Introduction To Light Sheet Microscopy](https://www.photometrics.com/learn/light-sheet-microscopy/introduction-to-light-sheet-microscopy) | [Your Next Confocal Should Be a Light-Sheet Microscope](https://www.bruker.com/en/products-and-solutions/fluorescence-microscopy/light-sheet-microscopes/why-choose-a-light-sheet-microscope.html) | [Photometrics - Light Sheet Microscopy](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/related_documents/Light-Sheet-Microscopy-App-Note.pdf); [*original file*](https://www.photometrics.com/wp-content/uploads/2019/10/Light-Sheet-Microscopy-App-Note.pdf) | [Rüdiger P. - Gaussian Beams, https://doi.org/10.61835/mla](https://www.rp-photonics.com/gaussian_beams.html) | [Open Selective Plane Illumination Microscopy (OpenSPIM)](https://www.photometrics.com/learn/light-sheet-microscopy/openspim)
 >
 > In this talk about light sheet sectioning, Ernst Stelzer discusses the new technique of light sheet microscopy, also known as selective plane illumination (SPIM). This uses two objectives, one to illuminate the sample and a second to image it, and allows long-term 3D imaging of thick specimens, like developing embryos, with minimal photobleaching and phototoxicity.
 
@@ -777,6 +777,7 @@ The main aim of light sheet microscopy is imaging a large sample with short time
 > One could assume that using a point scanning device such as a confocal microscope would improve the situation as only individual points are excited. This is not the case because the beam,
 >
 > a) needs to be focused onto a certain point and thereby will also above and below the point of focus, and
+> 
 > b) as the beam resides only briefly at each individual point, a much higher laser power is required which in turn causes even more damage to the sample ([Fig. 1B/C](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/What-Is-Light-Sheet_image1-1024x580.png)).
 >
 > One solution is to create a beam that is parallel to the focal plane ([Fig. 1D](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/What-Is-Light-Sheet_image1-1024x580.png) ). Above and below the plane of focus there is no excitation, and hence no additional negative effects in the out-of-focus planes. Rather than having a Gaussian beam profile, the beam is shaped by a cylindrical lens creating a sheet of light at and around the point of focus. The cylindrical lens maintains the round [Gaussian beam](https://www.edmundoptics.com/knowledge-center/application-notes/lasers/gaussian-beam-propagation/)’s profile in one dimension but compresses it in the other, as seen in Figure below.
@@ -787,21 +788,23 @@ The light sheet allows the system to be designed in a way that only the sample p
 
 ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/Light-sheet.png)
 
-In most light sheet systems, the majority of the optical components remain static while imaging. To obtain an image in 3D, the sample needs to be moved across the light sheet (other variations using adaptive optics sweep the sheet in XYZ across the sample). This is usually achieved by the movement of the sample holder which is a 3D- (XYZ) or 4D-stage (XYZθ, where θ is rotation). The movement in XYZ allows imaging of larger samples which can be larger than the already large FOV, which will require stitching in post-processing. The rotation gives access to the sample from multiple angles which can then be fused together. Because of this fusion process, the image will gain quality because the resolution will improve (see below for details).
+In most light sheet systems, the majority of the optical components remain static while imaging. To obtain an image in 3D, the sample needs to be moved across the light sheet (other variations using adaptive optics sweep the sheet in $XYZ$ across the sample). This is usually achieved by the movement of the sample holder which is a 3D- ($XYZ$) or 4D-stage ($XYZ \theta$, where $\theta$ is rotation). The movement in $XYZ$ allows imaging of larger samples which can be larger than the already large FOV, which will require stitching in post-processing. The rotation gives access to the sample from multiple angles which can then be fused together. Because of this fusion process, the image will gain quality because the resolution will improve (see below for details).
 
 Apart from that, there is a massive time benefit to be gained by this approach. Scanning a comparably sized sample on a confocal over minutes to hours can be reduced on a light sheet system to seconds and minutes. As mentioned before, phototoxic side effects are highly reduced by a factor of between 20-100x. And this is the main goal of light sheet microscopy: Image under physiological conditions for much longer and obtain more relevant data in live-cell experiments. 
 
 ### Light Sheet Optics
+
+
 > #### Gaussian Beams
 > In many laser optics applications, the laser beam is assumed to be [Gaussian with an irradiance profile](https://www.edmundoptics.com/knowledge-center/application-notes/lasers/gaussian-beam-propagation/) that follows an ideal Gaussian distribution. All actual laser beams will have some deviation from ideal Gaussian behavior. The $M^2$ factor, also known as the [beam quality factor](https://www.edmundoptics.com/knowledge-center/application-notes/lasers/beam-quality-and-strehl-ratio/), compares the performance of a real laser beam with that of a diffraction-limited Gaussian beam. Gaussian irradiance profiles are symmetric around the center of the beam and decrease as the distance from the center of the beam perpendicular to the direction of propagation increases. This distribution is described by Equation:
 >
-> | $$I(r) = I_0exp( \frac{-2r^2}{\omega (z)^2}) = \frac{2P}{\pi \omega (z)^2} exp( \frac{-2r^2}{\omega (z)^2})$$ | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/gaussian-beam-propagation-fig-1.webp)  <br> *The waist of a Gaussian beam is defined as the location where the irradiance $1/e^2(13.5%)$ of its maximum value* |
+> | $$I(r) = I_0exp( \frac{-2r^2}{\omega (z)^2}) = \frac{2P}{\pi \omega (z)^2} exp( \frac{-2r^2}{\omega (z)^2})$$ | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/gaussian-beam-propagation-fig-1.webp)  <br> *The waist of a Gaussian beam is defined as the location where the irradiance* $1/e^2(13.5\%)$ *of its maximum value* |
 > | ---- | --- |
 >
 > **Where**
 > - $I_0$  is the peak irradiance at the center of the beam
 > - $r$ is the radial distance away from the axis
-> - $\omega (z)$ is the radius of the laser beam where the irradiance is $1/e^2(13.5%)$ of $I_0$
+> - $\omega (z)$ is the radius of the laser beam where the irradiance is $1/e^2(13.5\%)$ of $I_0$
 > - $z$ is the distance propagated from the plane where the wavefront is flat
 > - $P$ is the total power of the beam
 >
@@ -812,9 +815,17 @@ Apart from that, there is a massive time benefit to be gained by this approach. 
 > > - $\omega_0$ is the beam waist
 > > - $phi$  is the divergence angle of the laser
 > > - $\lambda$ is the lasing wavelength
+> > 
+> > One would think that moving the camera along the propagation axis of the laser is required to measure divergence but it actually isn’t!
+> >
+> > We all have in mind that to obtain the $M^2$ factor of a laser beam (also known as beam quality factor), one has to measure both the divergence $\theta$ and the beam waist $\omega_0$, which does require to move along the z-axis to actually find the waist and measure its size.
+> >
+> > The $M^2$ factor, which is dimensionless, is an indicator of the laser beam quality and quantifies how close your beam propagation is to the propagation of a theoretical Gaussian beam of the same wavelength.
+> >
+> > ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/5f36fb07a063853355598613ac3024d085cc51eb.png)
 >
 > However, this irradiance profile does not stay constant as the beam propagates through space, hence the dependence of $\omega(z)$ on $z$. Due to diffraction, a Gaussian beam will converge and diverge from an area called the beam waist ( $\omega_0$ ), which is where the beam diameter reaches a minimum value.
-> | The beam converges and diverges equally on both sides of the beam waist by the divergence angle $phi$ (Figure right). The beam waist and divergence angle are both measured from the axis and their relationship can be seen in equations. | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/gaussian-beam-propagation-fig-2v2.webp)   <br> *Gaussian beams are defined by their beam waist (* $\omega_0$ *), Rayleigh range (* $z_R$ *), and divergence angle (* $\phi$ *)* |
+> | The beam converges and diverges equally on both sides of the beam waist by the divergence angle $phi$ (Figure right). The beam waist and divergence angle are both measured from the axis and their relationship can be seen in equations. | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/gaussian-beam-propagation-fig-2v2.webp)   <br> *Gaussian beams are defined by their beam waist (* $\omega_0$ *), [Rayleigh range](https://www.rp-photonics.com/rayleigh_length.html), the distance from the beam waist (in the propagation direction) where the beam radius is increased by a factor of the square root of 2. For a circular beam, this means that the mode area is doubled at that point. Typically, the Rayleigh length is considered for Gaussian beams (* $z_R=\frac{\pi \omega_0^2}{\lambda}$ *), and [divergence angle](https://www.gentec-eo.com/blog/laser-beam-divergence-measurement) (* $\phi$ *)* |
 > | --- | --- |
 >
 >  $$\omega_0 = \frac{\lambda}{\pi \phi} \Rightarrow \phi = \frac{\lambda}{\pi \omega_0}$$
