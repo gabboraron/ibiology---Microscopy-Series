@@ -34,7 +34,7 @@
 > - [Fluorescent Proteins and the Story Behind GFP (Roger Tsien, UCSD/HHMI)](https://github.com/gabboraron/ibiology---Microscopy-Series#fluorescent-proteins-and-the-story-behind-gfp-roger-tsien-ucsdhhmi)
 > - [Optical Sectioning and Confocal Microscopy (Kurt Thorn, UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main?tab=readme-ov-file#optical-sectioning-and-confocal-microscopy-kurt-thorn-ucsf)
 > - [Two Photon Microscopy (Kurt Thorn, UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main?tab=readme-ov-file#two-photon-microscopy-kurt-thorn-ucsf)
-> - [Dual-View Inverted Selective Plane Illumination (diSPIM)  (Hari Shroff, NIBI and National Institutes of Health)]()
+> - [Dual-View Inverted Selective Plane Illumination (diSPIM)  (Hari Shroff, NIBI and National Institutes of Health)](https://github.com/gabboraron/ibiology---Microscopy-Series?tab=readme-ov-file#dual-view-inverted-selective-plane-illumination-dispim--hari-shroff-nibi-and-national-institutes-of-health)
 >
 > ---------
 
@@ -879,7 +879,10 @@ and spatially isotropic imaging](https://github.com/gabboraron/ibiology---Micros
 
 | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/illustration_of_dispim_microscope_522_x_502.jpg) | Spatial resolution: 330nm isotropic. Temporal resolution: 200Hz framerate, 1-5Hz volumetric. Excitation wavelengths: 405nm, 488nm, 561nm, 639nm. DISPIM is ideal for imaging experiments in which photobleaching or phototoxicity is a critical issue. This is the fastest microscope currently available at AIM. |
 | ---- | ---- |
+
+
 | The DISPIM is a dual light sheet microscope that acquires two orthogonal views of a sample. These two views can then be fused and joint deconvolved to generate a single volume with high isotropic resolution. Like other light sheet microscopes, the DISPIM provides rapid volume imaging with a low photodose and is therefore ideally suited for long term or high repetition rate imaging in samples where phototoxicity/photobleaching can be a problem. Unlike conventional light sheet microscopes, the joint deconvolution process provides good resolution in all directions. $$\text{Left: 40X 0.8NA, dual views provide 330nm isotropic resolution with low photobleaching/phototoxicity. Ideal for prolonged imaging of live samples.}$$ | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/dual_view_example_of_dispim_microsope_0.jpg) |
+| ---- | ---- |
 
 Because we can't inspect a human brain because of ethical reasons and it's complexity, we must have to get other ideas, such as a worm's brain. [C. elegans worm](https://en.wikipedia.org/wiki/Caenorhabditis_elegans) can be a good starting point because of their body is transparent, so we can use light sheet sectioning and other technologies to inspect them. Below is an image about how [C. elegans](https://cgc.umn.edu/what-is-c-elegans) brain is connected.
 
@@ -889,3 +892,8 @@ Because we can't inspect a human brain because of ethical reasons and it's compl
 
 The dual-view inverted selective plane illumination microscope (diSPIM) is a light-sheet implementation optimized for imaging small specimens like elegans embryos. diSPIM enables sustained volumetric imaging at rates 10–1,000X faster than other 4D microscopes and at isotropic resolution 
 
+### Inefficient microscope types for this purpose
+
+|   |   |
+| --- | --- |
+| The simplest microscope that we might use is a widefield or epifluorescence microscope and in this microscope, we shine the light throughout the entire embryo volume while recording fluorescence from one plane at a time. In order to build up a volume, we move the embryo relative to the microscope objective or move the objective relative to the embryo but the problem is that we are only recording from one plane at a time while the embryo is getting dozed throughout its volume with light. So this is a very inefficient type of microscope and there is no rejection of out-of-focus light. What this means is that we cannot continuously monitor the embryo or for the many hours we need without killing or arresting the embryo. |   |
