@@ -1,0 +1,1 @@
+[Dual-View Inverted Selective Plane Illumination](https://www.ibiology.org/talks/selective-plane-illumination/) by diSPIM [Hari Shroff](https://www.ibiology.org/speakers/hari-shroff/)
