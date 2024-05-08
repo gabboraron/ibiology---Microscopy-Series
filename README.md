@@ -35,6 +35,7 @@
 > - [Optical Sectioning and Confocal Microscopy (Kurt Thorn, UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main?tab=readme-ov-file#optical-sectioning-and-confocal-microscopy-kurt-thorn-ucsf)
 > - [Two Photon Microscopy (Kurt Thorn, UCSF)](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main?tab=readme-ov-file#two-photon-microscopy-kurt-thorn-ucsf)
 > - [Dual-View Inverted Selective Plane Illumination (diSPIM)  (Hari Shroff, NIBI and National Institutes of Health)](https://github.com/gabboraron/ibiology---Microscopy-Series?tab=readme-ov-file#dual-view-inverted-selective-plane-illumination-dispim--hari-shroff-nibi-and-national-institutes-of-health)
+> - [Total Internal Reflection Fluorescence (TIRF) Microscopy](https://github.com/gabboraron/ibiology---Microscopy-Series/tree/main?tab=readme-ov-file#total-internal-reflection-fluorescence-tirf-microscopy)
 >
 > ---------
 
@@ -938,9 +939,19 @@ I'd like to finish by pointing out the although we now have a microscope that ca
 | --- | --- |
 
 ## Total Internal Reflection Fluorescence (TIRF) Microscopy
-> [Original link](https://www.ibiology.org/talks/total-internal-reflection-fluorescence/) | [YouTube](https://youtu.be/egmJIalDR48?si=gSXg3pRszQIgo3fK)
+> [Original link](https://www.ibiology.org/talks/total-internal-reflection-fluorescence/) | [YouTube](https://youtu.be/egmJIalDR48?si=gSXg3pRszQIgo3fK) | [MicroscopyU - TIRF](https://www.microscopyu.com/techniques/fluorescence/total-internal-reflection-fluorescence-tirf-microscopy) | [Fish KN. Total internal reflection fluorescence (TIRF) microscopy. Curr Protoc Cytom. 2009 Oct;Chapter 12:Unit12.18. doi: 10.1002/0471142956.cy1218s50. PMID: 19816922; PMCID: PMC4540339.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4540339/) | [Leica - TIRF](https://www.leica-microsystems.com/science-lab/life-science/total-internal-reflection-fluorescence-tirf-microscopy/)
 >
 > Total Internal Reflection Fluorescence (TIRF) Microscopy is a technique that only illuminates dye molecules near a surface. In this video, the pioneer of TIRF Microscopy describes what this technique is used for, explains the principles of the evanescent wave, gives many examples of different microscope configurations used in TIRF, and shows how polarized light TIRF can be used to image membrane orientation.
+
+
+| ![TIRF](https://raw.githubusercontent.com/gabboraron/ibiology---Microscopy-Series/main/realted_images/csm_TIRF_mircroscopy_principle_9bff64f537.webp) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/internal_reflection_TIRF.jpg) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/realted_images/TIRFM_Specimen_Illumination_Configurations.jpg) |
+| ----- | ---------- | ---------- |
+
+Whenever light encounters the interface of two transparent media with different refractive indices, it will be partially diffracted and partially reflected. At a certain angle of incidence, the so called critical angle, the light will be completely reflected and a phenomenon called total internal reflection occurs. Total internal reflection can only be observed if the light travels from a medium with a higher refractive index ($n$) *(e.g. glass dish, n = 1.52)* to a medium with a lower refractive index *(e.g. aqueous medium, n = 1.33)*. The critical angle ($\theta_C$) of incident light, at which total internal reflection occurs, can be determined by Snell’s law: $$\theta_C = sin^{-1} \frac{n_1}{n_2}$$ 
+
+On occurrence of total internal reflection, a portion of the energy of the incident light will be converted to an electromagnetic field and pass through the interface to form an evanescent wave originating at the interface. The emerging evanescent wave has the same frequency as the incident light and its amplitude decays exponentially with depth of penetration. Hence, fluorophores within the evanescent wave are not excited by the interaction with photons but by the interaction with the electromagnetic field. The penetration depth of this field typically ranges from 60 to 100 nm but can go up to 200 nm. It depends on the light’s angle of incidence, wavelength, and the refractive indices of the two media *(e.g. the glass of the coverslip and the specimen)*. Increasing the angle of incidence of the light leads to a reduced penetration depth and a higher wavelength of the incident light leads to an increased penetration depth. The refractive index of the medium behind the interface *(e.g. the specimen)* also has an influence on the penetration depth, as a higher refractive index increases the evanescent wave’s penetration depth. It should also be stated that in TIRF microscopy high power laser light, which is stronger than the laser light usually employed in confocal systems, is used to form an evanescent wave with sufficient energy. [*from Leica*](https://www.leica-microsystems.com/science-lab/life-science/total-internal-reflection-fluorescence-tirf-microscopy/)
+
+
 
 | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Total%20Internal%20Reflection%20Fluorescence%20(TIRF)%20Microscopy/tir.jpg) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Total%20Internal%20Reflection%20Fluorescence%20(TIRF)%20Microscopy/prism_based_tirf.jpg) | ![](https://github.com/gabboraron/ibiology---Microscopy-Series/blob/main/images_from_the_videos/Total%20Internal%20Reflection%20Fluorescence%20(TIRF)%20Microscopy/prism_based_tirf2.jpg) | 
 | ---- | ---- | --- |
